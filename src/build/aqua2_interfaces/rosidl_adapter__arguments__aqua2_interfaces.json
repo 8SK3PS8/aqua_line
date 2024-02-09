@@ -1,0 +1,32 @@
+{
+  "package_name": "aqua2_interfaces",
+  "non_idl_tuples": [
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:msg/StatusIndicator.msg",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:msg/Command.msg",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:msg/Health.msg",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:msg/AutopilotCommand.msg",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:msg/AutopilotTargets.msg",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:msg/AutopilotOutput.msg",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:msg/AutopilotPIDComponents.msg",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:msg/PeriodicLegCommand.msg",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:msg/LegState.msg",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:msg/Waypoint.msg",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:msg/RobodevelState.msg",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:msg/BBox.msg",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:msg/TagFeedback.msg",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:srv/GetAutopilotState.srv",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:srv/GetBool.srv",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:srv/GetNamedBool.srv",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:srv/GetNamedFloat.srv",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:srv/GetNamedInt.srv",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:srv/GetString.srv",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:srv/MissionUpdate.srv",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:srv/SetAutopilotMode.srv",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:srv/SetBool.srv",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:srv/SetFloat.srv",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:srv/SetInt.srv",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:srv/SetLegParams.srv",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:srv/SetNamedFloat.srv",
+    "/home/ajbam/aquaLine/src/aqua2_interfaces:srv/SetString.srv"
+  ]
+}

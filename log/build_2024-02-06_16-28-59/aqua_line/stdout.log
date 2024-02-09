@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/aqua_line/aqua_line.egg-info/PKG-INFO
+writing dependency_links to ../../build/aqua_line/aqua_line.egg-info/dependency_links.txt
+writing entry points to ../../build/aqua_line/aqua_line.egg-info/entry_points.txt
+writing requirements to ../../build/aqua_line/aqua_line.egg-info/requires.txt
+writing top-level names to ../../build/aqua_line/aqua_line.egg-info/top_level.txt
+reading manifest file '../../build/aqua_line/aqua_line.egg-info/SOURCES.txt'
+writing manifest file '../../build/aqua_line/aqua_line.egg-info/SOURCES.txt'
+running build
+running build_py
+copying aqua_line/stabilize.py -> /home/ajbam/aquaLine/build/aqua_line/build/lib/aqua_line
+copying aqua_line/goStraight.py -> /home/ajbam/aquaLine/build/aqua_line/build/lib/aqua_line
+running install
+running install_lib
+copying /home/ajbam/aquaLine/build/aqua_line/build/lib/aqua_line/stabilize.py -> /home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages/aqua_line
+copying /home/ajbam/aquaLine/build/aqua_line/build/lib/aqua_line/goStraight.py -> /home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages/aqua_line
+byte-compiling /home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages/aqua_line/stabilize.py to stabilize.cpython-38.pyc
+byte-compiling /home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages/aqua_line/goStraight.py to goStraight.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages/aqua_line-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/aqua_line/aqua_line.egg-info to /home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages/aqua_line-0.0.0-py3.8.egg-info
+running install_scripts
+Installing go_straight script to /home/ajbam/aquaLine/install/aqua_line/lib/aqua_line
+Installing stabilize script to /home/ajbam/aquaLine/install/aqua_line/lib/aqua_line
+writing list of installed files to '/home/ajbam/aquaLine/build/aqua_line/install.log'

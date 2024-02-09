@@ -1,0 +1,21 @@
+[0.452s] Invoking command in '/home/ajbam/aquaLine/src/aqua_line': PYTHONPATH=/home/ajbam/aquaLine/build/aqua_line/prefix_override:/home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aqua_line build --build-base /home/ajbam/aquaLine/build/aqua_line/build install --record /home/ajbam/aquaLine/build/aqua_line/install.log --install-scripts $base/lib/aqua_line --single-version-externally-managed
+[0.529s] running egg_info
+[0.529s] writing ../../build/aqua_line/aqua_line.egg-info/PKG-INFO
+[0.530s] writing dependency_links to ../../build/aqua_line/aqua_line.egg-info/dependency_links.txt
+[0.530s] writing entry points to ../../build/aqua_line/aqua_line.egg-info/entry_points.txt
+[0.530s] writing requirements to ../../build/aqua_line/aqua_line.egg-info/requires.txt
+[0.530s] writing top-level names to ../../build/aqua_line/aqua_line.egg-info/top_level.txt
+[0.545s] reading manifest file '../../build/aqua_line/aqua_line.egg-info/SOURCES.txt'
+[0.545s] writing manifest file '../../build/aqua_line/aqua_line.egg-info/SOURCES.txt'
+[0.545s] running build
+[0.545s] running build_py
+[0.546s] running install
+[0.546s] running install_lib
+[0.546s] running install_data
+[0.546s] running install_egg_info
+[0.547s] removing '/home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages/aqua_line-0.0.0-py3.8.egg-info' (and everything under it)
+[0.547s] Copying ../../build/aqua_line/aqua_line.egg-info to /home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages/aqua_line-0.0.0-py3.8.egg-info
+[0.547s] running install_scripts
+[0.556s] Installing go_straight script to /home/ajbam/aquaLine/install/aqua_line/lib/aqua_line
+[0.557s] writing list of installed files to '/home/ajbam/aquaLine/build/aqua_line/install.log'
+[0.639s] Invoked command in '/home/ajbam/aquaLine/src/aqua_line' returned '0': PYTHONPATH=/home/ajbam/aquaLine/build/aqua_line/prefix_override:/home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aqua_line build --build-base /home/ajbam/aquaLine/build/aqua_line/build install --record /home/ajbam/aquaLine/build/aqua_line/install.log --install-scripts $base/lib/aqua_line --single-version-externally-managed

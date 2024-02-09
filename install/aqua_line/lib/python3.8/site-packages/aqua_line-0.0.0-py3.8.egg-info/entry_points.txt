@@ -1,0 +1,4 @@
+[console_scripts]
+go_straight = aqua_line.goStraight:main
+stabilize = aqua_line.stabilize:main
+

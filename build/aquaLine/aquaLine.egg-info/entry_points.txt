@@ -1,0 +1,3 @@
+[console_scripts]
+go_straight = aquaLine.goStraight:main
+

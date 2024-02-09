@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from aqua2_simulation_interfaces/srv/SetLegStatus.srv
+// generated code does not contain a copyright notice
+
+
+module aqua2_simulation_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      " © Copyright Independent Robotics Inc. 2022")
+    struct SetLegStatus_Request {
+      int32 index;
+
+      int32 status;
+    };
+    struct SetLegStatus_Response {
+      string msg;
+    };
+  };
+};

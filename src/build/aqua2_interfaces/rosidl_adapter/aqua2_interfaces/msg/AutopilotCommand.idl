@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from aqua2_interfaces/msg/AutopilotCommand.msg
+// generated code does not contain a copyright notice
+
+
+module aqua2_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " © Copyright Independent Robotics Inc. 2022" "\n"
+      " Message used to give targets to the RoboDevel autopilot" "\n"
+      " surge & heave are pass through given to gait" "\n"
+      " target rpy are used in autopilot angles mode" "\n"
+      " target yaw & depth are used in autopilot depth mode" "\n"
+      " units for RPY are global-frame degrees, and depth is in meters")
+    struct AutopilotCommand {
+      float surge;
+
+      float heave;
+
+      float target_roll;
+
+      float target_pitch;
+
+      float target_yaw;
+
+      float target_depth;
+    };
+  };
+};

@@ -1,0 +1,7 @@
+/home/ajbam/aquaLine/build/aqua2_simulation_interfaces/rosidl_adapter/aqua2_simulation_interfaces:srv/GetFloat.idl
+/home/ajbam/aquaLine/build/aqua2_simulation_interfaces/rosidl_adapter/aqua2_simulation_interfaces:srv/GetPosition.idl
+/home/ajbam/aquaLine/build/aqua2_simulation_interfaces/rosidl_adapter/aqua2_simulation_interfaces:srv/SetCurrent.idl
+/home/ajbam/aquaLine/build/aqua2_simulation_interfaces/rosidl_adapter/aqua2_simulation_interfaces:srv/SetFloat.idl
+/home/ajbam/aquaLine/build/aqua2_simulation_interfaces/rosidl_adapter/aqua2_simulation_interfaces:srv/SetLegStatus.idl
+/home/ajbam/aquaLine/build/aqua2_simulation_interfaces/rosidl_adapter/aqua2_simulation_interfaces:srv/SetPosition.idl
+/home/ajbam/aquaLine/build/aqua2_simulation_interfaces/rosidl_adapter/aqua2_simulation_interfaces:srv/EmptyWorkaround.idl

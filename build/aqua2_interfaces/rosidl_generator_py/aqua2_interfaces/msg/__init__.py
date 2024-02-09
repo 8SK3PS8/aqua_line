@@ -1,0 +1,13 @@
+from aqua2_interfaces.msg._autopilot_command import AutopilotCommand  # noqa: F401
+from aqua2_interfaces.msg._autopilot_output import AutopilotOutput  # noqa: F401
+from aqua2_interfaces.msg._autopilot_pid_components import AutopilotPIDComponents  # noqa: F401
+from aqua2_interfaces.msg._autopilot_targets import AutopilotTargets  # noqa: F401
+from aqua2_interfaces.msg._b_box import BBox  # noqa: F401
+from aqua2_interfaces.msg._command import Command  # noqa: F401
+from aqua2_interfaces.msg._health import Health  # noqa: F401
+from aqua2_interfaces.msg._leg_state import LegState  # noqa: F401
+from aqua2_interfaces.msg._periodic_leg_command import PeriodicLegCommand  # noqa: F401
+from aqua2_interfaces.msg._robodevel_state import RobodevelState  # noqa: F401
+from aqua2_interfaces.msg._status_indicator import StatusIndicator  # noqa: F401
+from aqua2_interfaces.msg._tag_feedback import TagFeedback  # noqa: F401
+from aqua2_interfaces.msg._waypoint import Waypoint  # noqa: F401

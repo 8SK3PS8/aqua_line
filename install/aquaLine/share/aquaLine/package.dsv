@@ -1,0 +1,6 @@
+source;share/aquaLine/hook/pythonpath.ps1
+source;share/aquaLine/hook/pythonpath.dsv
+source;share/aquaLine/hook/pythonpath.sh
+source;share/aquaLine/hook/ament_prefix_path.ps1
+source;share/aquaLine/hook/ament_prefix_path.dsv
+source;share/aquaLine/hook/ament_prefix_path.sh

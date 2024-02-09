@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000075] (aqua2_interfaces) JobQueued: {'identifier': 'aqua2_interfaces', 'dependencies': OrderedDict()}
+[0.000089] (aqua2_simulation_interfaces) JobQueued: {'identifier': 'aqua2_simulation_interfaces', 'dependencies': OrderedDict()}
+[0.000098] (aquaLine) JobQueued: {'identifier': 'aquaLine', 'dependencies': OrderedDict()}
+[0.000105] (aqua2_interfaces) JobStarted: {'identifier': 'aqua2_interfaces'}
+[0.056920] (aqua2_simulation_interfaces) JobStarted: {'identifier': 'aqua2_simulation_interfaces'}
+[0.100143] (-) TimerEvent: {}
+[0.110937] (aquaLine) JobStarted: {'identifier': 'aquaLine'}
+[0.180701] (aqua2_interfaces) JobProgress: {'identifier': 'aqua2_interfaces', 'progress': 'cmake'}
+[0.180753] (aqua2_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ajbam/aquaLine/src/aqua2_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/ajbam/aquaLine/install/aqua2_interfaces'], 'cwd': '/home/ajbam/aquaLine/build/aqua2_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ajbam'), ('SSH_AGENT_PID', '2103'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ajbam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1913'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus,guid=4832332f69feb2f7e69b2b9065c0fe9c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ajbam/aquaLine/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ajbam'), ('JOURNAL_STREAM', '8:65728'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ajbam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/zach:@/tmp/.ICE-unix/2144,unix/zach:/tmp/.ICE-unix/2144'), ('INVOCATION_ID', 'a228fbbd62b24783b2f8156d0e077b1c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a274ef58_d1d9_449d_902f_9962db640123'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ajbam/aquaLine/build/aqua2_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1002/bus,guid=4832332f69feb2f7e69b2b9065c0fe9c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.184206] (aqua2_simulation_interfaces) JobProgress: {'identifier': 'aqua2_simulation_interfaces', 'progress': 'cmake'}
+[0.184761] (aqua2_simulation_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ajbam/aquaLine/src/aqua2_simulation_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/ajbam/aquaLine/install/aqua2_simulation_interfaces'], 'cwd': '/home/ajbam/aquaLine/build/aqua2_simulation_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ajbam'), ('SSH_AGENT_PID', '2103'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ajbam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1913'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus,guid=4832332f69feb2f7e69b2b9065c0fe9c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ajbam/aquaLine/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ajbam'), ('JOURNAL_STREAM', '8:65728'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ajbam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/zach:@/tmp/.ICE-unix/2144,unix/zach:/tmp/.ICE-unix/2144'), ('INVOCATION_ID', 'a228fbbd62b24783b2f8156d0e077b1c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a274ef58_d1d9_449d_902f_9962db640123'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ajbam/aquaLine/build/aqua2_simulation_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1002/bus,guid=4832332f69feb2f7e69b2b9065c0fe9c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.200275] (-) TimerEvent: {}
+[0.251280] (aqua2_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.251449] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.293608] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.293816] (aqua2_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.298588] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.298641] (aqua2_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.300501] (-) TimerEvent: {}
+[0.329756] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.329997] (aqua2_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.332009] (aqua2_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.332163] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.361339] (aqua2_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.361517] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.367809] (aqua2_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.367876] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.368063] (aqua2_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.368112] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.369773] (aqua2_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.369837] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.400618] (-) TimerEvent: {}
+[0.403245] (aqua2_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.403328] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.403694] (aqua2_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.403795] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.438747] (aqua2_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.438854] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.444066] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.444266] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.446789] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.447270] (aqua2_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.447574] (aqua2_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.448925] (aqua2_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.458467] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.458610] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.460566] (aqua2_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.460606] (aqua2_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.500781] (-) TimerEvent: {}
+[0.524344] (aquaLine) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/aquaLine', 'build', '--build-base', '/home/ajbam/aquaLine/build/aquaLine/build', 'install', '--record', '/home/ajbam/aquaLine/build/aquaLine/install.log', '--install-scripts', '$base/lib/aquaLine', '--single-version-externally-managed'], 'cwd': '/home/ajbam/aquaLine/src/aquaLine', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ajbam', 'SSH_AGENT_PID': '2103', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ajbam', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1913', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus,guid=4832332f69feb2f7e69b2b9065c0fe9c', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ajbam/aquaLine/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ajbam', 'JOURNAL_STREAM': '8:65728', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ajbam', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/zach:@/tmp/.ICE-unix/2144,unix/zach:/tmp/.ICE-unix/2144', 'INVOCATION_ID': 'a228fbbd62b24783b2f8156d0e077b1c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a274ef58_d1d9_449d_902f_9962db640123', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1002/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ajbam/aquaLine/build/aquaLine', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1002/bus,guid=4832332f69feb2f7e69b2b9065c0fe9c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ajbam/aquaLine/build/aquaLine/prefix_override:/home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.543543] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.547551] (aqua2_interfaces) StderrLine: {'line': b'CMake Error at CMakeLists.txt:23 (find_package):\n'}
+[0.547632] (aqua2_interfaces) StderrLine: {'line': b'  By not providing "Findgeographic_msgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[0.547660] (aqua2_interfaces) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[0.547685] (aqua2_interfaces) StderrLine: {'line': b'  "geographic_msgs", but CMake did not find one.\n'}
+[0.547707] (aqua2_interfaces) StderrLine: {'line': b'\n'}
+[0.547758] (aqua2_interfaces) StderrLine: {'line': b'  Could not find a package configuration file provided by "geographic_msgs"\n'}
+[0.547781] (aqua2_interfaces) StderrLine: {'line': b'  with any of the following names:\n'}
+[0.547801] (aqua2_interfaces) StderrLine: {'line': b'\n'}
+[0.547821] (aqua2_interfaces) StderrLine: {'line': b'    geographic_msgsConfig.cmake\n'}
+[0.547842] (aqua2_interfaces) StderrLine: {'line': b'    geographic_msgs-config.cmake\n'}
+[0.547862] (aqua2_interfaces) StderrLine: {'line': b'\n'}
+[0.547882] (aqua2_interfaces) StderrLine: {'line': b'  Add the installation prefix of "geographic_msgs" to CMAKE_PREFIX_PATH or\n'}
+[0.547902] (aqua2_interfaces) StderrLine: {'line': b'  set "geographic_msgs_DIR" to a directory containing one of the above files.\n'}
+[0.547921] (aqua2_interfaces) StderrLine: {'line': b'  If "geographic_msgs" provides a separate development package or SDK, be\n'}
+[0.547940] (aqua2_interfaces) StderrLine: {'line': b'  sure it has been installed.\n'}
+[0.547961] (aqua2_interfaces) StderrLine: {'line': b'\n'}
+[0.547980] (aqua2_interfaces) StderrLine: {'line': b'\n'}
+[0.547999] (aqua2_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.548025] (aqua2_interfaces) StdoutLine: {'line': b'See also "/home/ajbam/aquaLine/build/aqua2_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.549448] (aqua2_interfaces) CommandEnded: {'returncode': 1}
+[0.580929] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.583731] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.586237] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.587945] (aqua2_interfaces) JobEnded: {'identifier': 'aqua2_interfaces', 'rc': 1}
+[0.600930] (-) TimerEvent: {}
+[0.608610] (aquaLine) StdoutLine: {'line': b'running egg_info\n'}
+[0.608684] (aquaLine) StdoutLine: {'line': b'creating ../../build/aquaLine/aquaLine.egg-info\n'}
+[0.608711] (aquaLine) StdoutLine: {'line': b'writing ../../build/aquaLine/aquaLine.egg-info/PKG-INFO\n'}
+[0.608824] (aquaLine) StdoutLine: {'line': b'writing dependency_links to ../../build/aquaLine/aquaLine.egg-info/dependency_links.txt\n'}
+[0.608881] (aquaLine) StdoutLine: {'line': b'writing entry points to ../../build/aquaLine/aquaLine.egg-info/entry_points.txt\n'}
+[0.608907] (aquaLine) StdoutLine: {'line': b'writing requirements to ../../build/aquaLine/aquaLine.egg-info/requires.txt\n'}
+[0.608930] (aquaLine) StdoutLine: {'line': b'writing top-level names to ../../build/aquaLine/aquaLine.egg-info/top_level.txt\n'}
+[0.609645] (aquaLine) StdoutLine: {'line': b"writing manifest file '../../build/aquaLine/aquaLine.egg-info/SOURCES.txt'\n"}
+[0.623665] (aquaLine) StdoutLine: {'line': b"reading manifest file '../../build/aquaLine/aquaLine.egg-info/SOURCES.txt'\n"}
+[0.623960] (aquaLine) StdoutLine: {'line': b"writing manifest file '../../build/aquaLine/aquaLine.egg-info/SOURCES.txt'\n"}
+[0.624019] (aquaLine) StdoutLine: {'line': b'running build\n'}
+[0.624048] (aquaLine) StdoutLine: {'line': b'running build_py\n'}
+[0.624142] (aquaLine) StdoutLine: {'line': b'creating /home/ajbam/aquaLine/build/aquaLine/build\n'}
+[0.624196] (aquaLine) StdoutLine: {'line': b'creating /home/ajbam/aquaLine/build/aquaLine/build/lib\n'}
+[0.624224] (aquaLine) StdoutLine: {'line': b'creating /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine\n'}
+[0.624250] (aquaLine) StdoutLine: {'line': b'copying aquaLine/geometry.py -> /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine\n'}
+[0.624275] (aquaLine) StdoutLine: {'line': b'copying aquaLine/stabilize.py -> /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine\n'}
+[0.624299] (aquaLine) StdoutLine: {'line': b'copying aquaLine/goStraight.py -> /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine\n'}
+[0.624322] (aquaLine) StdoutLine: {'line': b'copying aquaLine/__init__.py -> /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine\n'}
+[0.624358] (aquaLine) StdoutLine: {'line': b'running install\n'}
+[0.624516] (aquaLine) StdoutLine: {'line': b'running install_lib\n'}
+[0.624871] (aquaLine) StdoutLine: {'line': b'creating /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine\n'}
+[0.624904] (aquaLine) StdoutLine: {'line': b'copying /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine/geometry.py -> /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine\n'}
+[0.624936] (aquaLine) StdoutLine: {'line': b'copying /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine/stabilize.py -> /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine\n'}
+[0.624969] (aquaLine) StdoutLine: {'line': b'copying /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine/goStraight.py -> /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine\n'}
+[0.625002] (aquaLine) StdoutLine: {'line': b'copying /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine/__init__.py -> /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine\n'}
+[0.625200] (aquaLine) StdoutLine: {'line': b'byte-compiling /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine/geometry.py to geometry.cpython-38.pyc\n'}
+[0.625671] (aquaLine) StdoutLine: {'line': b'byte-compiling /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine/stabilize.py to stabilize.cpython-38.pyc\n'}
+[0.625730] (aquaLine) StdoutLine: {'line': b'byte-compiling /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine/goStraight.py to goStraight.cpython-38.pyc\n'}
+[0.625773] (aquaLine) StdoutLine: {'line': b'byte-compiling /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine/__init__.py to __init__.cpython-38.pyc\n'}
+[0.625798] (aquaLine) StdoutLine: {'line': b'running install_data\n'}
+[0.625961] (aquaLine) StdoutLine: {'line': b'creating /home/ajbam/aquaLine/install/aquaLine/share/ament_index\n'}
+[0.626027] (aquaLine) StdoutLine: {'line': b'creating /home/ajbam/aquaLine/install/aquaLine/share/ament_index/resource_index\n'}
+[0.626056] (aquaLine) StdoutLine: {'line': b'creating /home/ajbam/aquaLine/install/aquaLine/share/ament_index/resource_index/packages\n'}
+[0.626094] (aquaLine) StdoutLine: {'line': b'copying resource/aquaLine -> /home/ajbam/aquaLine/install/aquaLine/share/ament_index/resource_index/packages\n'}
+[0.626116] (aquaLine) StdoutLine: {'line': b'copying package.xml -> /home/ajbam/aquaLine/install/aquaLine/share/aquaLine\n'}
+[0.626138] (aquaLine) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.626741] (aquaLine) StdoutLine: {'line': b'Copying ../../build/aquaLine/aquaLine.egg-info to /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine-0.0.0-py3.8.egg-info\n'}
+[0.626983] (aquaLine) StdoutLine: {'line': b'running install_scripts\n'}
+[0.632568] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.634322] (aquaLine) StdoutLine: {'line': b"writing list of installed files to '/home/ajbam/aquaLine/build/aquaLine/install.log'\n"}
+[0.642805] (aquaLine) JobEnded: {'identifier': 'aquaLine', 'rc': 'SIGINT'}
+[0.645975] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.685999] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.699221] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.701093] (-) TimerEvent: {}
+[0.746893] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.801244] (-) TimerEvent: {}
+[0.822066] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.901415] (-) TimerEvent: {}
+[0.925251] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.972801] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.984124] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.984712] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.997184] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.997244] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.997273] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.997296] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.001580] (-) TimerEvent: {}
+[1.008281] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.054127] (aqua2_simulation_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.054854] (aqua2_simulation_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.055370] (aqua2_simulation_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.058648] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.087682] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.088750] (aqua2_simulation_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ajbam/aquaLine/build/aqua2_simulation_interfaces\n'}
+[1.092669] (aqua2_simulation_interfaces) JobEnded: {'identifier': 'aqua2_simulation_interfaces', 'rc': 'SIGINT'}
+[1.101844] (-) TimerEvent: {}
+[1.102919] (-) EventReactorShutdown: {}

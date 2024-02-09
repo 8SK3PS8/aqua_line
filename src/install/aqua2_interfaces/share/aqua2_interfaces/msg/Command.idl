@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from aqua2_interfaces/msg/Command.msg
+// generated code does not contain a copyright notice
+
+
+module aqua2_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " © Copyright Independent Robotics Inc. 2022" "\n"
+      " For sending raw command values to RoboDevel to translate into motion without using the autopilot." "\n"
+      " These values do not directly correspond to real-world values, ie there is no clear mapping to m/s or any other unit.")
+    struct Command {
+      @verbatim (language="comment", text=
+        " unitless pseudo-rate, [0, 1]")
+      float speed;
+
+      @verbatim (language="comment", text=
+        " unitless pseudo-rate, [-1, 1] # +1: yaw right")
+      float yaw;
+
+      @verbatim (language="comment", text=
+        " unitless pseudo-rate, [-1, 1] # +1: pitch forwards down")
+      float pitch;
+
+      @verbatim (language="comment", text=
+        " unitless pseudo-rate, [-1, 1] # +1: roll right")
+      float roll;
+
+      @verbatim (language="comment", text=
+        " unitless pseudo-rate, [-1, 1] # +1: heave up")
+      float heave;
+    };
+  };
+};

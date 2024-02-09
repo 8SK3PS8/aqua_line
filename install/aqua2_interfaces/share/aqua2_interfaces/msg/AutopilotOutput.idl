@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from aqua2_interfaces/msg/AutopilotOutput.msg
+// generated code does not contain a copyright notice
+
+
+module aqua2_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " © Copyright Independent Robotics Inc. 2022" "\n"
+      " This message is used to obtain the target values determined by the RoboDevel autopilot." "\n"
+      " The depth is in meters, and the roll/pitch/yaw angles are in degrees.")
+    struct AutopilotOutput {
+      float speed;
+
+      float heave;
+
+      float roll;
+
+      float pitch;
+
+      float yaw;
+    };
+  };
+};

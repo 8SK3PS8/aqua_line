@@ -1,0 +1,43 @@
+[0.000000] (-) TimerEvent: {}
+[0.000084] (aquaLine) JobQueued: {'identifier': 'aquaLine', 'dependencies': OrderedDict()}
+[0.000099] (aquaLine) JobStarted: {'identifier': 'aquaLine'}
+[0.099748] (-) TimerEvent: {}
+[0.200072] (-) TimerEvent: {}
+[0.300351] (-) TimerEvent: {}
+[0.360579] (aquaLine) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/aquaLine', 'build', '--build-base', '/home/ajbam/aquaLine/src/build/aquaLine/build', 'install', '--record', '/home/ajbam/aquaLine/src/build/aquaLine/install.log', '--install-scripts', '$base/lib/aquaLine', '--single-version-externally-managed'], 'cwd': '/home/ajbam/aquaLine/src/aquaLine', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ajbam', 'SSH_AGENT_PID': '64094', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ajbam', 'OLDPWD': '/home/ajbam/aquaLine', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '63894', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ajbam', 'JOURNAL_STREAM': '8:492636', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ajbam', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/zach:@/tmp/.ICE-unix/78037,unix/zach:/tmp/.ICE-unix/78037', 'INVOCATION_ID': '3e89b62e4ab041b09c018717395faeba', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/04d9dd6e_49e7_4ad5_b53a_8c5c60ef96c7', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.78', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1002/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ajbam/aquaLine/src/build/aquaLine', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ajbam/aquaLine/src/build/aquaLine/prefix_override:/home/ajbam/aquaLine/src/install/aquaLine/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.400432] (-) TimerEvent: {}
+[0.444735] (aquaLine) StdoutLine: {'line': b'running egg_info\n'}
+[0.444853] (aquaLine) StdoutLine: {'line': b'creating ../build/aquaLine/aquaLine.egg-info\n'}
+[0.444925] (aquaLine) StdoutLine: {'line': b'writing ../build/aquaLine/aquaLine.egg-info/PKG-INFO\n'}
+[0.445012] (aquaLine) StdoutLine: {'line': b'writing dependency_links to ../build/aquaLine/aquaLine.egg-info/dependency_links.txt\n'}
+[0.445038] (aquaLine) StdoutLine: {'line': b'writing entry points to ../build/aquaLine/aquaLine.egg-info/entry_points.txt\n'}
+[0.445111] (aquaLine) StdoutLine: {'line': b'writing requirements to ../build/aquaLine/aquaLine.egg-info/requires.txt\n'}
+[0.445135] (aquaLine) StdoutLine: {'line': b'writing top-level names to ../build/aquaLine/aquaLine.egg-info/top_level.txt\n'}
+[0.445601] (aquaLine) StdoutLine: {'line': b"writing manifest file '../build/aquaLine/aquaLine.egg-info/SOURCES.txt'\n"}
+[0.459120] (aquaLine) StdoutLine: {'line': b"reading manifest file '../build/aquaLine/aquaLine.egg-info/SOURCES.txt'\n"}
+[0.459315] (aquaLine) StdoutLine: {'line': b"writing manifest file '../build/aquaLine/aquaLine.egg-info/SOURCES.txt'\n"}
+[0.459354] (aquaLine) StdoutLine: {'line': b'running build\n'}
+[0.459381] (aquaLine) StdoutLine: {'line': b'running build_py\n'}
+[0.459443] (aquaLine) StdoutLine: {'line': b'creating /home/ajbam/aquaLine/src/build/aquaLine/build\n'}
+[0.459467] (aquaLine) StdoutLine: {'line': b'creating /home/ajbam/aquaLine/src/build/aquaLine/build/lib\n'}
+[0.459489] (aquaLine) StdoutLine: {'line': b'creating /home/ajbam/aquaLine/src/build/aquaLine/build/lib/aquaLine\n'}
+[0.459509] (aquaLine) StdoutLine: {'line': b'copying aquaLine/__init__.py -> /home/ajbam/aquaLine/src/build/aquaLine/build/lib/aquaLine\n'}
+[0.459558] (aquaLine) StdoutLine: {'line': b'running install\n'}
+[0.459859] (aquaLine) StdoutLine: {'line': b'running install_lib\n'}
+[0.460206] (aquaLine) StdoutLine: {'line': b'creating /home/ajbam/aquaLine/src/install/aquaLine/lib/python3.8/site-packages/aquaLine\n'}
+[0.460228] (aquaLine) StdoutLine: {'line': b'copying /home/ajbam/aquaLine/src/build/aquaLine/build/lib/aquaLine/__init__.py -> /home/ajbam/aquaLine/src/install/aquaLine/lib/python3.8/site-packages/aquaLine\n'}
+[0.460468] (aquaLine) StdoutLine: {'line': b'byte-compiling /home/ajbam/aquaLine/src/install/aquaLine/lib/python3.8/site-packages/aquaLine/__init__.py to __init__.cpython-38.pyc\n'}
+[0.460850] (aquaLine) StdoutLine: {'line': b'running install_data\n'}
+[0.461025] (aquaLine) StdoutLine: {'line': b'creating /home/ajbam/aquaLine/src/install/aquaLine/share/ament_index\n'}
+[0.461060] (aquaLine) StdoutLine: {'line': b'creating /home/ajbam/aquaLine/src/install/aquaLine/share/ament_index/resource_index\n'}
+[0.461098] (aquaLine) StdoutLine: {'line': b'creating /home/ajbam/aquaLine/src/install/aquaLine/share/ament_index/resource_index/packages\n'}
+[0.461127] (aquaLine) StdoutLine: {'line': b'copying resource/aquaLine -> /home/ajbam/aquaLine/src/install/aquaLine/share/ament_index/resource_index/packages\n'}
+[0.461149] (aquaLine) StdoutLine: {'line': b'copying package.xml -> /home/ajbam/aquaLine/src/install/aquaLine/share/aquaLine\n'}
+[0.461181] (aquaLine) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.461791] (aquaLine) StdoutLine: {'line': b'Copying ../build/aquaLine/aquaLine.egg-info to /home/ajbam/aquaLine/src/install/aquaLine/lib/python3.8/site-packages/aquaLine-0.0.0-py3.8.egg-info\n'}
+[0.462020] (aquaLine) StdoutLine: {'line': b'running install_scripts\n'}
+[0.469194] (aquaLine) StdoutLine: {'line': b"writing list of installed files to '/home/ajbam/aquaLine/src/build/aquaLine/install.log'\n"}
+[0.477274] (aquaLine) CommandEnded: {'returncode': 0}
+[0.500526] (-) TimerEvent: {}
+[0.521160] (aquaLine) JobEnded: {'identifier': 'aquaLine', 'rc': 0}
+[0.521459] (-) EventReactorShutdown: {}

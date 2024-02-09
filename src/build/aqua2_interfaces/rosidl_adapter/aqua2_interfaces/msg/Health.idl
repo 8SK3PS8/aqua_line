@@ -1,0 +1,50 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from aqua2_interfaces/msg/Health.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module aqua2_interfaces {
+  module msg {
+    typedef float float__6[6];
+    @verbatim (language="comment", text=
+      " © Copyright Independent Robotics Inc. 2022" "\n"
+      " Health Monitor Message" "\n"
+      " Contains sensor readings that give insights on status of low level hardware")
+    struct Health {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " Voltage used by entire robot, sensor on motor driver board")
+      float voltage;
+
+      @verbatim (language="comment", text=
+        " Current used by entire robot, sensor on motor driver board")
+      float current;
+
+      @verbatim (language="comment", text=
+        " Voltage of entire robot averaged over preset time window")
+      float avgvoltage;
+
+      @verbatim (language="comment", text=
+        " Current of entire robot averaged over preset time window")
+      float avgcurrent;
+
+      @verbatim (language="comment", text=
+        " Power of entire robot averaged over preset time window")
+      float avgpower;
+
+      @verbatim (language="comment", text=
+        " Battery status")
+      float battery_dod;
+
+      @verbatim (language="comment", text=
+        " Temperature sensor for motor driver board on the robot")
+      float mdbtemp;
+
+      @verbatim (language="comment", text=
+        " temperature sensors for leg motors")
+      float__6 leg_temps;
+    };
+  };
+};

@@ -1,0 +1,68 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from aqua2_interfaces/msg/PeriodicLegCommand.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module aqua2_interfaces {
+  module msg {
+    typedef float float__6[6];
+    @verbatim (language="comment", text=
+      " © Copyright Independent Robotics Inc. 2022" "\n"
+      " This message represents the leg command parameterization that was decided by consensus at" "\n"
+      " MRL in July, 2014. The intention is that ROS-coded gaits will publish messages of this" "\n"
+      " type, and that the aqua robot as well as its simulator will implement leg motions" "\n"
+      " that follow the requested sinusoidal trajectories." "\n"
+      "" "\n"
+      " Author: David Meger" "\n"
+      " Date: July 29, 2014")
+    struct PeriodicLegCommand {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " The ordering of the 6 legs in all following arrays is:" "\n"
+        " 0: front-left" "\n"
+        " 1: mid-left" "\n"
+        " 2: hind-left" "\n"
+        " 3: front-right" "\n"
+        " 4: mid-right" "\n"
+        " 5: hind-right" "\n"
+        "" "\n"
+        " The orientation of the leg angles are:" "\n"
+        " 0: pointing backwards" "\n"
+        " pi: pointing downwards" "\n"
+        " 2*pi: pointing forwards" "\n"
+        "" "\n"
+        " Computation of current leg angle:" "\n"
+        " leg_angle = amplitude * cos(2*pi * frequency * dt + phase_offset) + leg_offset" "\n"
+        "" "\n"
+        " Midoff positioning and velocity modes:" "\n"
+        "" "\n"
+        " The midoff angle of each leg can be commanded in either position mode or in" "\n"
+        " velocity mode. They are implemented as follows:" "\n"
+        "" "\n"
+        " if leg_velocities[i] != 0:" "\n"
+        "   actual leg offset = last internally-stored leg offset + leg_velocities[i]*dt" "\n"
+        " else:" "\n"
+        "   actual leg offset = leg_offsets[i]" "\n"
+        " units: rad")
+      float__6 amplitudes;
+
+      @verbatim (language="comment", text=
+        " units: hz")
+      float__6 frequencies;
+
+      @verbatim (language="comment", text=
+        " units: rad")
+      float__6 phase_offsets;
+
+      @verbatim (language="comment", text=
+        " units: rad")
+      float__6 leg_offsets;
+
+      @verbatim (language="comment", text=
+        " units: rad/s")
+      float__6 leg_velocities;
+    };
+  };
+};

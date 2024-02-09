@@ -1,0 +1,12 @@
+{
+  "package_name": "aqua2_simulation_interfaces",
+  "non_idl_tuples": [
+    "/home/ajbam/aquaLine/src/aqua2_simulation_interfaces:srv/GetFloat.srv",
+    "/home/ajbam/aquaLine/src/aqua2_simulation_interfaces:srv/GetPosition.srv",
+    "/home/ajbam/aquaLine/src/aqua2_simulation_interfaces:srv/SetCurrent.srv",
+    "/home/ajbam/aquaLine/src/aqua2_simulation_interfaces:srv/SetFloat.srv",
+    "/home/ajbam/aquaLine/src/aqua2_simulation_interfaces:srv/SetLegStatus.srv",
+    "/home/ajbam/aquaLine/src/aqua2_simulation_interfaces:srv/SetPosition.srv",
+    "/home/ajbam/aquaLine/src/aqua2_simulation_interfaces:srv/EmptyWorkaround.srv"
+  ]
+}

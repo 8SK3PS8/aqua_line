@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from aqua2_interfaces/srv/GetAutopilotState.srv
+// generated code does not contain a copyright notice
+
+
+module aqua2_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      " © Copyright Independent Robotics Inc. 2022" "\n"
+      " Stores autopilot state variables")
+    struct GetAutopilotState_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetAutopilotState_Response {
+      int32 autopilot_mode;
+
+      float target_depth;
+
+      float target_roll;
+
+      float target_pitch;
+
+      float target_yaw;
+    };
+  };
+};

@@ -1,0 +1,26 @@
+[0.427s] Invoking command in '/home/ajbam/aquaLine/src/aquaLine': PYTHONPATH=/home/ajbam/aquaLine/build/aquaLine/prefix_override:/home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aquaLine build --build-base /home/ajbam/aquaLine/build/aquaLine/build install --record /home/ajbam/aquaLine/build/aquaLine/install.log --single-version-externally-managed
+[0.517s] running egg_info
+[0.518s] writing ../../build/aquaLine/aquaLine.egg-info/PKG-INFO
+[0.518s] writing dependency_links to ../../build/aquaLine/aquaLine.egg-info/dependency_links.txt
+[0.518s] writing entry points to ../../build/aquaLine/aquaLine.egg-info/entry_points.txt
+[0.518s] writing requirements to ../../build/aquaLine/aquaLine.egg-info/requires.txt
+[0.518s] writing top-level names to ../../build/aquaLine/aquaLine.egg-info/top_level.txt
+[0.533s] package init file 'aquaLine/__init__.py' not found (or not a regular file)
+[0.533s] reading manifest file '../../build/aquaLine/aquaLine.egg-info/SOURCES.txt'
+[0.534s] writing manifest file '../../build/aquaLine/aquaLine.egg-info/SOURCES.txt'
+[0.534s] running build
+[0.534s] running build_py
+[0.534s] copying aquaLine/geometry.py -> /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine
+[0.534s] copying aquaLine/stabilize.py -> /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine
+[0.535s] copying aquaLine/goStraight.py -> /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine
+[0.535s] running install
+[0.535s] running install_lib
+[0.535s] copying /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine/geometry.py -> /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine
+[0.535s] copying /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine/stabilize.py -> /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine
+[0.535s] copying /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine/goStraight.py -> /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine
+[0.535s] byte-compiling /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine/geometry.py to geometry.cpython-38.pyc
+[0.536s] byte-compiling /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine/stabilize.py to stabilize.cpython-38.pyc
+[0.536s] byte-compiling /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine/goStraight.py to goStraight.cpython-38.pyc
+[0.536s] running install_data
+[0.537s] error: can't copy 'resource/aquaLine': doesn't exist or not a regular file
+[0.589s] Invoked command in '/home/ajbam/aquaLine/src/aquaLine' returned '1': PYTHONPATH=/home/ajbam/aquaLine/build/aquaLine/prefix_override:/home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aquaLine build --build-base /home/ajbam/aquaLine/build/aquaLine/build install --record /home/ajbam/aquaLine/build/aquaLine/install.log --single-version-externally-managed

@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from aqua2_interfaces/msg/TagFeedback.msg
+// generated code does not contain a copyright notice
+
+
+module aqua2_interfaces {
+  module msg {
+    struct TagFeedback {
+      uint64 im_width_px;
+
+      uint64 im_height_px;
+
+      uint64 num_tags;
+
+      @verbatim (language="comment", text=
+        " should have numTags*8 elements: TopLeftX, TopLeftY, TopRightX, TopRightY, BottomRightX, BottomRightY, BottomLeftX, BottomLeftY")
+      sequence<uint64> tag_corners_px;
+
+      string msg;
+    };
+  };
+};

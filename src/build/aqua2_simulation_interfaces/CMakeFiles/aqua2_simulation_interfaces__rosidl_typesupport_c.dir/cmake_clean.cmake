@@ -1,0 +1,23 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_simulation_interfaces/srv/empty_workaround__type_support.cpp.o"
+  "CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_simulation_interfaces/srv/get_float__type_support.cpp.o"
+  "CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_simulation_interfaces/srv/get_position__type_support.cpp.o"
+  "CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_simulation_interfaces/srv/set_current__type_support.cpp.o"
+  "CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_simulation_interfaces/srv/set_float__type_support.cpp.o"
+  "CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_simulation_interfaces/srv/set_leg_status__type_support.cpp.o"
+  "CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_simulation_interfaces/srv/set_position__type_support.cpp.o"
+  "libaqua2_simulation_interfaces__rosidl_typesupport_c.pdb"
+  "libaqua2_simulation_interfaces__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/aqua2_simulation_interfaces/srv/empty_workaround__type_support.cpp"
+  "rosidl_typesupport_c/aqua2_simulation_interfaces/srv/get_float__type_support.cpp"
+  "rosidl_typesupport_c/aqua2_simulation_interfaces/srv/get_position__type_support.cpp"
+  "rosidl_typesupport_c/aqua2_simulation_interfaces/srv/set_current__type_support.cpp"
+  "rosidl_typesupport_c/aqua2_simulation_interfaces/srv/set_float__type_support.cpp"
+  "rosidl_typesupport_c/aqua2_simulation_interfaces/srv/set_leg_status__type_support.cpp"
+  "rosidl_typesupport_c/aqua2_simulation_interfaces/srv/set_position__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

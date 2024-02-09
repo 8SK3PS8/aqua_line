@@ -1,0 +1,41 @@
+[0.414s] Invoking command in '/home/ajbam/aquaLine/src/aquaLine': PYTHONPATH=/home/ajbam/aquaLine/build/aquaLine/prefix_override:/home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aquaLine build --build-base /home/ajbam/aquaLine/build/aquaLine/build install --record /home/ajbam/aquaLine/build/aquaLine/install.log --install-scripts $base/lib/aquaLine --single-version-externally-managed
+[0.498s] running egg_info
+[0.498s] creating ../../build/aquaLine/aquaLine.egg-info
+[0.498s] writing ../../build/aquaLine/aquaLine.egg-info/PKG-INFO
+[0.498s] writing dependency_links to ../../build/aquaLine/aquaLine.egg-info/dependency_links.txt
+[0.498s] writing entry points to ../../build/aquaLine/aquaLine.egg-info/entry_points.txt
+[0.498s] writing requirements to ../../build/aquaLine/aquaLine.egg-info/requires.txt
+[0.498s] writing top-level names to ../../build/aquaLine/aquaLine.egg-info/top_level.txt
+[0.499s] writing manifest file '../../build/aquaLine/aquaLine.egg-info/SOURCES.txt'
+[0.513s] reading manifest file '../../build/aquaLine/aquaLine.egg-info/SOURCES.txt'
+[0.513s] writing manifest file '../../build/aquaLine/aquaLine.egg-info/SOURCES.txt'
+[0.513s] running build
+[0.513s] running build_py
+[0.513s] creating /home/ajbam/aquaLine/build/aquaLine/build
+[0.513s] creating /home/ajbam/aquaLine/build/aquaLine/build/lib
+[0.513s] creating /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine
+[0.513s] copying aquaLine/geometry.py -> /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine
+[0.513s] copying aquaLine/stabilize.py -> /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine
+[0.513s] copying aquaLine/goStraight.py -> /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine
+[0.513s] copying aquaLine/__init__.py -> /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine
+[0.513s] running install
+[0.514s] running install_lib
+[0.514s] creating /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine
+[0.514s] copying /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine/geometry.py -> /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine
+[0.514s] copying /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine/stabilize.py -> /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine
+[0.514s] copying /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine/goStraight.py -> /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine
+[0.514s] copying /home/ajbam/aquaLine/build/aquaLine/build/lib/aquaLine/__init__.py -> /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine
+[0.514s] byte-compiling /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine/geometry.py to geometry.cpython-38.pyc
+[0.515s] byte-compiling /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine/stabilize.py to stabilize.cpython-38.pyc
+[0.515s] byte-compiling /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine/goStraight.py to goStraight.cpython-38.pyc
+[0.515s] byte-compiling /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine/__init__.py to __init__.cpython-38.pyc
+[0.515s] running install_data
+[0.515s] creating /home/ajbam/aquaLine/install/aquaLine/share/ament_index
+[0.515s] creating /home/ajbam/aquaLine/install/aquaLine/share/ament_index/resource_index
+[0.515s] creating /home/ajbam/aquaLine/install/aquaLine/share/ament_index/resource_index/packages
+[0.515s] copying resource/aquaLine -> /home/ajbam/aquaLine/install/aquaLine/share/ament_index/resource_index/packages
+[0.515s] copying package.xml -> /home/ajbam/aquaLine/install/aquaLine/share/aquaLine
+[0.515s] running install_egg_info
+[0.516s] Copying ../../build/aquaLine/aquaLine.egg-info to /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine-0.0.0-py3.8.egg-info
+[0.516s] running install_scripts
+[0.523s] writing list of installed files to '/home/ajbam/aquaLine/build/aquaLine/install.log'

@@ -1,0 +1,14 @@
+from aqua2_interfaces.srv._get_autopilot_state import GetAutopilotState  # noqa: F401
+from aqua2_interfaces.srv._get_bool import GetBool  # noqa: F401
+from aqua2_interfaces.srv._get_named_bool import GetNamedBool  # noqa: F401
+from aqua2_interfaces.srv._get_named_float import GetNamedFloat  # noqa: F401
+from aqua2_interfaces.srv._get_named_int import GetNamedInt  # noqa: F401
+from aqua2_interfaces.srv._get_string import GetString  # noqa: F401
+from aqua2_interfaces.srv._mission_update import MissionUpdate  # noqa: F401
+from aqua2_interfaces.srv._set_autopilot_mode import SetAutopilotMode  # noqa: F401
+from aqua2_interfaces.srv._set_bool import SetBool  # noqa: F401
+from aqua2_interfaces.srv._set_float import SetFloat  # noqa: F401
+from aqua2_interfaces.srv._set_int import SetInt  # noqa: F401
+from aqua2_interfaces.srv._set_leg_params import SetLegParams  # noqa: F401
+from aqua2_interfaces.srv._set_named_float import SetNamedFloat  # noqa: F401
+from aqua2_interfaces.srv._set_string import SetString  # noqa: F401

@@ -1,0 +1,11 @@
+setup.py
+../../build/aquaLine/aquaLine.egg-info/PKG-INFO
+../../build/aquaLine/aquaLine.egg-info/SOURCES.txt
+../../build/aquaLine/aquaLine.egg-info/dependency_links.txt
+../../build/aquaLine/aquaLine.egg-info/entry_points.txt
+../../build/aquaLine/aquaLine.egg-info/requires.txt
+../../build/aquaLine/aquaLine.egg-info/top_level.txt
+../../build/aquaLine/aquaLine.egg-info/zip-safe
+aquaLine/geometry.py
+aquaLine/goStraight.py
+aquaLine/stabilize.py

@@ -1,0 +1,1 @@
+Invoking command in '/home/ajbam/aquaLine/build/aqua2_simulation_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ajbam/aquaLine/src/aqua2_simulation_interfaces -DCMAKE_INSTALL_PREFIX=/home/ajbam/aquaLine/install/aqua2_simulation_interfaces

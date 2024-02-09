@@ -1,0 +1,359 @@
+[0.127s] Invoking command in '/home/ajbam/aquaLine/build/aqua2_simulation_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ajbam/aquaLine/build/aqua2_simulation_interfaces -- -j32 -l32
+[0.145s] [35m[1mScanning dependencies of target aqua2_simulation_interfaces__cpp[0m
+[0.145s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.149s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.419s] [  2%] Built target aqua2_simulation_interfaces__cpp
+[0.424s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.424s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.425s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.435s] [35m[1mScanning dependencies of target aqua2_simulation_interfaces__rosidl_generator_c[0m
+[0.442s] [  7%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_simulation_interfaces/srv/detail/get_float__functions.c.o[0m
+[0.443s] [  8%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_simulation_interfaces/srv/detail/get_position__functions.c.o[0m
+[0.443s] [ 10%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_simulation_interfaces/srv/detail/set_leg_status__functions.c.o[0m
+[0.444s] [ 11%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_simulation_interfaces/srv/detail/set_current__functions.c.o[0m
+[0.444s] [ 15%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_simulation_interfaces/srv/detail/set_float__functions.c.o[0m
+[0.444s] [ 15%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_simulation_interfaces/srv/detail/empty_workaround__functions.c.o[0m
+[0.444s] [ 15%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_simulation_interfaces/srv/detail/set_position__functions.c.o[0m
+[0.481s] [ 16%] [32m[1mLinking C shared library libaqua2_simulation_interfaces__rosidl_generator_c.so[0m
+[0.499s] [ 16%] Built target aqua2_simulation_interfaces__rosidl_generator_c
+[0.504s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.504s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.610s] [35m[1mScanning dependencies of target aqua2_simulation_interfaces__rosidl_typesupport_cpp[0m
+[0.618s] [ 20%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_simulation_interfaces/srv/get_float__type_support.cpp.o[0m
+[0.618s] [ 21%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_simulation_interfaces/srv/set_float__type_support.cpp.o[0m
+[0.618s] [ 22%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_simulation_interfaces/srv/get_position__type_support.cpp.o[0m
+[0.620s] [ 24%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_simulation_interfaces/srv/set_current__type_support.cpp.o[0m
+[0.620s] [ 25%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_simulation_interfaces/srv/set_leg_status__type_support.cpp.o[0m
+[0.620s] [ 27%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_simulation_interfaces/srv/set_position__type_support.cpp.o[0m
+[0.620s] [ 27%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_simulation_interfaces/srv/empty_workaround__type_support.cpp.o[0m
+[0.644s] [35m[1mScanning dependencies of target aqua2_simulation_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.651s] [ 29%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_simulation_interfaces/srv/detail/get_position__type_support.cpp.o[0m
+[0.653s] [ 32%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_simulation_interfaces/srv/detail/set_float__type_support.cpp.o[0m
+[0.653s] [ 32%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_simulation_interfaces/srv/detail/get_float__type_support.cpp.o[0m
+[0.653s] [ 32%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_simulation_interfaces/srv/detail/set_current__type_support.cpp.o[0m
+[0.653s] [ 34%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_simulation_interfaces/srv/detail/set_leg_status__type_support.cpp.o[0m
+[0.653s] [ 35%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_simulation_interfaces/srv/detail/set_position__type_support.cpp.o[0m
+[0.654s] [ 36%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_simulation_interfaces/srv/detail/empty_workaround__type_support.cpp.o[0m
+[0.685s] [35m[1mScanning dependencies of target aqua2_simulation_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.691s] [35m[1mScanning dependencies of target aqua2_simulation_interfaces__rosidl_typesupport_c[0m
+[0.699s] [ 37%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_simulation_interfaces/srv/get_float__type_support.cpp.o[0m
+[0.699s] [ 40%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_simulation_interfaces/srv/detail/dds_fastrtps/get_position__type_support.cpp.o[0m
+[0.700s] [ 40%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_simulation_interfaces/srv/get_position__type_support.cpp.o[0m
+[0.700s] [ 43%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_simulation_interfaces/srv/set_float__type_support.cpp.o[0m
+[0.700s] [ 43%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_simulation_interfaces/srv/detail/dds_fastrtps/get_float__type_support.cpp.o[0m
+[0.700s] [ 44%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_simulation_interfaces/srv/detail/dds_fastrtps/set_current__type_support.cpp.o[0m
+[0.700s] [ 48%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_simulation_interfaces/srv/detail/dds_fastrtps/set_float__type_support.cpp.o[0m
+[0.700s] [ 48%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_simulation_interfaces/srv/set_current__type_support.cpp.o[0m
+[0.700s] [ 48%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_simulation_interfaces/srv/set_position__type_support.cpp.o[0m
+[0.700s] [ 49%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_simulation_interfaces/srv/detail/dds_fastrtps/set_leg_status__type_support.cpp.o[0m
+[0.700s] [ 51%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_simulation_interfaces/srv/set_leg_status__type_support.cpp.o[0m
+[0.700s] [ 51%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_simulation_interfaces/srv/empty_workaround__type_support.cpp.o[0m
+[0.701s] [ 53%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_simulation_interfaces/srv/detail/dds_fastrtps/set_position__type_support.cpp.o[0m
+[0.701s] [ 54%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_simulation_interfaces/srv/detail/dds_fastrtps/empty_workaround__type_support.cpp.o[0m
+[0.725s] [ 55%] [32m[1mLinking CXX shared library libaqua2_simulation_interfaces__rosidl_typesupport_c.so[0m
+[0.757s] [ 55%] Built target aqua2_simulation_interfaces__rosidl_typesupport_c
+[0.759s] [35m[1mScanning dependencies of target aqua2_simulation_interfaces__rosidl_typesupport_introspection_c[0m
+[0.767s] [ 56%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_simulation_interfaces/srv/detail/get_float__type_support.c.o[0m
+[0.767s] [ 58%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_simulation_interfaces/srv/detail/empty_workaround__type_support.c.o[0m
+[0.768s] [ 59%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_simulation_interfaces/srv/detail/set_leg_status__type_support.c.o[0m
+[0.768s] [ 60%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_simulation_interfaces/srv/detail/get_position__type_support.c.o[0m
+[0.768s] [ 62%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_simulation_interfaces/srv/detail/set_float__type_support.c.o[0m
+[0.769s] [ 63%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_simulation_interfaces/srv/detail/set_position__type_support.c.o[0m
+[0.771s] [ 64%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_simulation_interfaces/srv/detail/set_current__type_support.c.o[0m
+[0.795s] [ 65%] [32m[1mLinking C shared library libaqua2_simulation_interfaces__rosidl_typesupport_introspection_c.so[0m
+[0.812s] [ 65%] Built target aqua2_simulation_interfaces__rosidl_typesupport_introspection_c
+[0.843s] [ 67%] [32m[1mLinking CXX shared library libaqua2_simulation_interfaces__rosidl_typesupport_cpp.so[0m
+[0.864s] [ 67%] Built target aqua2_simulation_interfaces__rosidl_typesupport_cpp
+[0.885s] [ 68%] [32m[1mLinking CXX shared library libaqua2_simulation_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[0.916s] [ 68%] Built target aqua2_simulation_interfaces__rosidl_typesupport_introspection_cpp
+[0.962s] [ 69%] [32m[1mLinking CXX shared library libaqua2_simulation_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.002s] [ 69%] Built target aqua2_simulation_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.007s] [ 70%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.247s] [35m[1mScanning dependencies of target aqua2_simulation_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.259s] [ 72%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_simulation_interfaces/srv/detail/get_float__type_support_c.cpp.o[0m
+[1.259s] [ 73%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_simulation_interfaces/srv/detail/get_position__type_support_c.cpp.o[0m
+[1.259s] [ 74%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_simulation_interfaces/srv/detail/set_current__type_support_c.cpp.o[0m
+[1.259s] [ 75%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_simulation_interfaces/srv/detail/set_float__type_support_c.cpp.o[0m
+[1.259s] [ 77%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_simulation_interfaces/srv/detail/set_leg_status__type_support_c.cpp.o[0m
+[1.259s] [ 78%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_simulation_interfaces/srv/detail/set_position__type_support_c.cpp.o[0m
+[1.261s] [ 79%] [32mBuilding CXX object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_simulation_interfaces/srv/detail/empty_workaround__type_support_c.cpp.o[0m
+[1.460s] [ 81%] [32m[1mLinking CXX shared library libaqua2_simulation_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.500s] [ 81%] Built target aqua2_simulation_interfaces__rosidl_typesupport_fastrtps_c
+[1.504s] [35m[1mScanning dependencies of target aqua2_simulation_interfaces[0m
+[1.509s] [ 81%] Built target aqua2_simulation_interfaces
+[1.513s] [35m[1mScanning dependencies of target aqua2_simulation_interfaces__py[0m
+[1.518s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.084s] [ 82%] Built target aqua2_simulation_interfaces__py
+[2.088s] [35m[1mScanning dependencies of target aqua2_simulation_interfaces__python[0m
+[2.101s] [ 83%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__python.dir/rosidl_generator_py/aqua2_simulation_interfaces/srv/_get_float_s.c.o[0m
+[2.101s] [ 84%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__python.dir/rosidl_generator_py/aqua2_simulation_interfaces/srv/_get_position_s.c.o[0m
+[2.101s] [ 86%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__python.dir/rosidl_generator_py/aqua2_simulation_interfaces/srv/_set_current_s.c.o[0m
+[2.103s] [ 87%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__python.dir/rosidl_generator_py/aqua2_simulation_interfaces/srv/_set_float_s.c.o[0m
+[2.103s] [ 89%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__python.dir/rosidl_generator_py/aqua2_simulation_interfaces/srv/_set_leg_status_s.c.o[0m
+[2.104s] [ 89%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__python.dir/rosidl_generator_py/aqua2_simulation_interfaces/srv/_set_position_s.c.o[0m
+[2.104s] [ 91%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__python.dir/rosidl_generator_py/aqua2_simulation_interfaces/srv/_empty_workaround_s.c.o[0m
+[2.165s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/aqua2_simulation_interfaces/libaqua2_simulation_interfaces__python.so[0m
+[2.186s] [ 92%] Built target aqua2_simulation_interfaces__python
+[2.190s] [35m[1mScanning dependencies of target aqua2_simulation_interfaces__rosidl_typesupport_c__pyext[0m
+[2.190s] [35m[1mScanning dependencies of target aqua2_simulation_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[2.190s] [35m[1mScanning dependencies of target aqua2_simulation_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.200s] [ 96%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/aqua2_simulation_interfaces/_aqua2_simulation_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.200s] [ 96%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/aqua2_simulation_interfaces/_aqua2_simulation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.200s] [ 96%] [32mBuilding C object CMakeFiles/aqua2_simulation_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aqua2_simulation_interfaces/_aqua2_simulation_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.255s] [100%] [32m[1mLinking C shared library rosidl_generator_py/aqua2_simulation_interfaces/aqua2_simulation_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.255s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/aqua2_simulation_interfaces/aqua2_simulation_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.255s] [100%] [32m[1mLinking C shared library rosidl_generator_py/aqua2_simulation_interfaces/aqua2_simulation_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.273s] [100%] Built target aqua2_simulation_interfaces__rosidl_typesupport_c__pyext
+[2.273s] [100%] Built target aqua2_simulation_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.285s] [100%] Built target aqua2_simulation_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.291s] Invoked command in '/home/ajbam/aquaLine/build/aqua2_simulation_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ajbam/aquaLine/build/aqua2_simulation_interfaces -- -j32 -l32
+[2.341s] Invoking command in '/home/ajbam/aquaLine/build/aqua2_simulation_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ajbam/aquaLine/build/aqua2_simulation_interfaces
+[2.344s] -- Install configuration: ""
+[2.345s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/ament_index/resource_index/rosidl_interfaces/aqua2_simulation_interfaces
+[2.345s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces
+[2.345s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv
+[2.345s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/get_float.h
+[2.345s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/set_current.h
+[2.345s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/empty_workaround.h
+[2.345s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/get_position.h
+[2.345s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/set_position.h
+[2.345s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/set_float.h
+[2.345s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/set_leg_status.h
+[2.345s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail
+[2.345s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_float__functions.c
+[2.345s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_position__type_support.h
+[2.345s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_current__type_support.h
+[2.345s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/empty_workaround__type_support.h
+[2.345s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_position__functions.h
+[2.345s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_current__struct.h
+[2.345s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_float__type_support.h
+[2.345s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_position__functions.h
+[2.345s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_position__functions.c
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/empty_workaround__functions.c
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_leg_status__type_support.h
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_float__type_support.h
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_float__functions.h
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_leg_status__struct.h
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_current__functions.c
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_position__struct.h
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_position__struct.h
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/empty_workaround__functions.h
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_current__functions.h
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_float__functions.c
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_leg_status__functions.h
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_position__functions.c
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_position__type_support.h
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/empty_workaround__struct.h
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_float__functions.h
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_float__struct.h
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_float__struct.h
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_leg_status__functions.c
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/msg
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/environment/library_path.sh
+[2.346s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/environment/library_path.dsv
+[2.347s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/libaqua2_simulation_interfaces__rosidl_generator_c.so
+[2.347s] -- Set runtime path of "/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/libaqua2_simulation_interfaces__rosidl_generator_c.so" to ""
+[2.347s] -- Up-to-date: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces
+[2.347s] -- Up-to-date: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv
+[2.347s] -- Up-to-date: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail
+[2.347s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/empty_workaround__rosidl_typesupport_fastrtps_c.h
+[2.347s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_float__rosidl_typesupport_fastrtps_c.h
+[2.347s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_position__rosidl_typesupport_fastrtps_c.h
+[2.347s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_current__rosidl_typesupport_fastrtps_c.h
+[2.347s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_leg_status__rosidl_typesupport_fastrtps_c.h
+[2.347s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_c.h
+[2.347s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_float__rosidl_typesupport_fastrtps_c.h
+[2.347s] -- Up-to-date: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/msg
+[2.347s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.347s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/libaqua2_simulation_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.347s] -- Set runtime path of "/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/libaqua2_simulation_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.347s] -- Up-to-date: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces
+[2.348s] -- Up-to-date: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv
+[2.348s] -- Up-to-date: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail
+[2.348s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/empty_workaround__rosidl_typesupport_fastrtps_cpp.hpp
+[2.348s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_cpp.hpp
+[2.348s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_leg_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.348s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/dds_fastrtps
+[2.348s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_float__rosidl_typesupport_fastrtps_cpp.hpp
+[2.348s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_current__rosidl_typesupport_fastrtps_cpp.hpp
+[2.348s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_float__rosidl_typesupport_fastrtps_cpp.hpp
+[2.348s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_position__rosidl_typesupport_fastrtps_cpp.hpp
+[2.348s] -- Up-to-date: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/msg
+[2.348s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.348s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/libaqua2_simulation_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.348s] -- Set runtime path of "/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/libaqua2_simulation_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.348s] -- Up-to-date: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces
+[2.348s] -- Up-to-date: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv
+[2.348s] -- Up-to-date: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail
+[2.348s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_current__type_support.c
+[2.348s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/empty_workaround__type_support.c
+[2.349s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_current__rosidl_typesupport_introspection_c.h
+[2.349s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_float__type_support.c
+[2.349s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_position__type_support.c
+[2.349s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_leg_status__type_support.c
+[2.349s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_float__type_support.c
+[2.349s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_position__type_support.c
+[2.349s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_float__rosidl_typesupport_introspection_c.h
+[2.349s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_c.h
+[2.349s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/empty_workaround__rosidl_typesupport_introspection_c.h
+[2.349s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_leg_status__rosidl_typesupport_introspection_c.h
+[2.349s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_position__rosidl_typesupport_introspection_c.h
+[2.349s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_float__rosidl_typesupport_introspection_c.h
+[2.349s] -- Up-to-date: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/msg
+[2.349s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.349s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/libaqua2_simulation_interfaces__rosidl_typesupport_introspection_c.so
+[2.349s] -- Set runtime path of "/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/libaqua2_simulation_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.349s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/libaqua2_simulation_interfaces__rosidl_typesupport_c.so
+[2.350s] -- Set runtime path of "/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/libaqua2_simulation_interfaces__rosidl_typesupport_c.so" to ""
+[2.350s] -- Up-to-date: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces
+[2.350s] -- Up-to-date: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv
+[2.350s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/empty_workaround.hpp
+[2.350s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/set_leg_status.hpp
+[2.350s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/get_position.hpp
+[2.350s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/set_float.hpp
+[2.350s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/set_current.hpp
+[2.350s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/set_position.hpp
+[2.350s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/get_float.hpp
+[2.350s] -- Up-to-date: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail
+[2.350s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_current__builder.hpp
+[2.350s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/empty_workaround__struct.hpp
+[2.350s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_float__type_support.hpp
+[2.350s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_float__struct.hpp
+[2.350s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_current__traits.hpp
+[2.350s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_leg_status__struct.hpp
+[2.350s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_position__struct.hpp
+[2.350s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_position__traits.hpp
+[2.350s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_position__traits.hpp
+[2.350s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_float__builder.hpp
+[2.351s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_position__builder.hpp
+[2.351s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_position__type_support.hpp
+[2.351s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_leg_status__builder.hpp
+[2.351s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_current__type_support.hpp
+[2.351s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_float__traits.hpp
+[2.351s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_current__struct.hpp
+[2.351s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_leg_status__type_support.hpp
+[2.351s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_leg_status__traits.hpp
+[2.351s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_float__builder.hpp
+[2.351s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_float__struct.hpp
+[2.351s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/empty_workaround__type_support.hpp
+[2.351s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_position__builder.hpp
+[2.351s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_float__traits.hpp
+[2.351s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_float__type_support.hpp
+[2.351s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/empty_workaround__builder.hpp
+[2.351s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_position__struct.hpp
+[2.351s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/empty_workaround__traits.hpp
+[2.351s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_position__type_support.hpp
+[2.351s] -- Up-to-date: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/msg
+[2.351s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.351s] -- Up-to-date: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces
+[2.351s] -- Up-to-date: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv
+[2.351s] -- Up-to-date: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail
+[2.352s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_float__type_support.cpp
+[2.352s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/empty_workaround__type_support.cpp
+[2.352s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_position__type_support.cpp
+[2.352s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_float__rosidl_typesupport_introspection_cpp.hpp
+[2.352s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/empty_workaround__rosidl_typesupport_introspection_cpp.hpp
+[2.352s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_position__rosidl_typesupport_introspection_cpp.hpp
+[2.352s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_position__type_support.cpp
+[2.352s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_leg_status__type_support.cpp
+[2.352s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_leg_status__rosidl_typesupport_introspection_cpp.hpp
+[2.352s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp
+[2.352s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_float__type_support.cpp
+[2.352s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/get_float__rosidl_typesupport_introspection_cpp.hpp
+[2.352s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_current__rosidl_typesupport_introspection_cpp.hpp
+[2.352s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/include/aqua2_simulation_interfaces/srv/detail/set_current__type_support.cpp
+[2.352s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/libaqua2_simulation_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.352s] -- Set runtime path of "/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/libaqua2_simulation_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.353s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/libaqua2_simulation_interfaces__rosidl_typesupport_cpp.so
+[2.353s] -- Set runtime path of "/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/libaqua2_simulation_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.353s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/environment/pythonpath.sh
+[2.353s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/environment/pythonpath.dsv
+[2.353s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/__init__.py
+[2.366s] Compiling '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/__init__.py'...
+[2.368s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/srv
+[2.368s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/srv/_empty_workaround.py
+[2.368s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/srv/_set_current.py
+[2.368s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/srv/_set_current_s.c
+[2.368s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/srv/_set_float.py
+[2.368s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/srv/_get_position.py
+[2.368s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/srv/_empty_workaround_s.c
+[2.368s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/srv/_get_float.py
+[2.368s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/srv/__init__.py
+[2.368s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/srv/_get_float_s.c
+[2.368s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/srv/_set_position.py
+[2.368s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/srv/_get_position_s.c
+[2.369s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/srv/_set_float_s.c
+[2.369s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/srv/_set_leg_status_s.c
+[2.369s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/srv/_set_leg_status.py
+[2.369s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/srv/_set_position_s.c
+[2.369s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/aqua2_simulation_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.369s] -- Set runtime path of "/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/aqua2_simulation_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.369s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/aqua2_simulation_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.369s] -- Set runtime path of "/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/aqua2_simulation_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.369s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/aqua2_simulation_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.369s] -- Set runtime path of "/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages/aqua2_simulation_interfaces/aqua2_simulation_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.369s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/libaqua2_simulation_interfaces__python.so
+[2.369s] -- Set runtime path of "/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/libaqua2_simulation_interfaces__python.so" to ""
+[2.369s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/GetFloat.idl
+[2.369s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/GetPosition.idl
+[2.370s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/SetCurrent.idl
+[2.370s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/SetFloat.idl
+[2.370s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/SetLegStatus.idl
+[2.370s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/SetPosition.idl
+[2.370s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/EmptyWorkaround.idl
+[2.370s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/GetFloat.srv
+[2.370s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/GetFloat_Request.msg
+[2.370s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/GetFloat_Response.msg
+[2.370s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/GetPosition.srv
+[2.370s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/GetPosition_Request.msg
+[2.370s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/GetPosition_Response.msg
+[2.370s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/SetCurrent.srv
+[2.370s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/SetCurrent_Request.msg
+[2.370s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/SetCurrent_Response.msg
+[2.370s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/SetFloat.srv
+[2.370s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/SetFloat_Request.msg
+[2.370s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/SetFloat_Response.msg
+[2.370s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/SetLegStatus.srv
+[2.371s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/SetLegStatus_Request.msg
+[2.371s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/SetLegStatus_Response.msg
+[2.371s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/SetPosition.srv
+[2.371s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/SetPosition_Request.msg
+[2.371s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/SetPosition_Response.msg
+[2.371s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/EmptyWorkaround.srv
+[2.371s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/EmptyWorkaround_Request.msg
+[2.371s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/srv/EmptyWorkaround_Response.msg
+[2.371s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/ament_index/resource_index/package_run_dependencies/aqua2_simulation_interfaces
+[2.371s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/ament_index/resource_index/parent_prefix_path/aqua2_simulation_interfaces
+[2.371s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/environment/ament_prefix_path.sh
+[2.371s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/environment/ament_prefix_path.dsv
+[2.371s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/environment/path.sh
+[2.371s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/environment/path.dsv
+[2.371s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/local_setup.bash
+[2.371s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/local_setup.sh
+[2.371s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/local_setup.zsh
+[2.371s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/local_setup.dsv
+[2.371s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/package.dsv
+[2.372s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/ament_index/resource_index/packages/aqua2_simulation_interfaces
+[2.372s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/cmake/aqua2_simulation_interfaces__rosidl_generator_cExport.cmake
+[2.372s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/cmake/aqua2_simulation_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.372s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/cmake/aqua2_simulation_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.372s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/cmake/aqua2_simulation_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.372s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/cmake/aqua2_simulation_interfaces__rosidl_typesupport_cExport.cmake
+[2.372s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/cmake/aqua2_simulation_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.372s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/cmake/aqua2_simulation_interfaces__rosidl_generator_cppExport.cmake
+[2.372s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/cmake/aqua2_simulation_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.372s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/cmake/aqua2_simulation_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.372s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/cmake/aqua2_simulation_interfaces__rosidl_typesupport_cppExport.cmake
+[2.372s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/cmake/aqua2_simulation_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.372s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.372s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.372s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.372s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.372s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.372s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.373s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.373s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/cmake/aqua2_simulation_interfacesConfig.cmake
+[2.373s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/cmake/aqua2_simulation_interfacesConfig-version.cmake
+[2.373s] -- Installing: /home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/package.xml
+[2.373s] Invoked command in '/home/ajbam/aquaLine/build/aqua2_simulation_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ajbam/aquaLine/build/aqua2_simulation_interfaces

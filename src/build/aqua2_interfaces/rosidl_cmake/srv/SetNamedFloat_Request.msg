@@ -1,0 +1,3 @@
+# © Copyright Independent Robotics Inc. 2022
+string name
+float32 value

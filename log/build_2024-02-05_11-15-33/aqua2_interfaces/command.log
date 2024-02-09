@@ -1,0 +1,2 @@
+Invoking command in '/home/ajbam/aquaLine/build/aqua2_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ajbam/aquaLine/src/aqua2_interfaces -DCMAKE_INSTALL_PREFIX=/home/ajbam/aquaLine/install/aqua2_interfaces
+Invoked command in '/home/ajbam/aquaLine/build/aqua2_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ajbam/aquaLine/src/aqua2_interfaces -DCMAKE_INSTALL_PREFIX=/home/ajbam/aquaLine/install/aqua2_interfaces

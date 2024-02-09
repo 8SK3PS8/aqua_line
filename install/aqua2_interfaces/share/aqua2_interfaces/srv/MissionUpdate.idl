@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from aqua2_interfaces/srv/MissionUpdate.srv
+// generated code does not contain a copyright notice
+
+
+module aqua2_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      " © Copyright Independent Robotics Inc. 2022")
+    struct MissionUpdate_Request {
+      @verbatim (language="comment", text=
+        " The filename for the mission")
+      string mission_filename;
+    };
+    struct MissionUpdate_Response {
+      @verbatim (language="comment", text=
+        " If they got the new mission")
+      boolean response;
+    };
+  };
+};

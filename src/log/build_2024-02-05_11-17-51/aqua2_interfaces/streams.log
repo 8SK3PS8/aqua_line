@@ -1,0 +1,972 @@
+[0.178s] Invoking command in '/home/ajbam/aquaLine/src/build/aqua2_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ajbam/aquaLine/src/aqua2_interfaces -DCMAKE_INSTALL_PREFIX=/home/ajbam/aquaLine/src/install/aqua2_interfaces
+[0.184s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.194s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.268s] -- Found geographic_msgs: 1.0.4 (/opt/ros/foxy/share/geographic_msgs/cmake)
+[0.281s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.284s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.315s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.329s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.456s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.476s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.639s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.778s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.861s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.876s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.876s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.892s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[0.892s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.892s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.892s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.903s] -- Found PythonExtra: .so  
+[0.953s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.963s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.964s] -- Added test 'lint_cmake' to check CMake code style
+[0.964s] -- Added test 'xmllint' to check XML markup files
+[0.966s] -- Configuring done
+[1.022s] -- Generating done
+[1.023s] -- Build files have been written to: /home/ajbam/aquaLine/src/build/aqua2_interfaces
+[1.026s] Invoked command in '/home/ajbam/aquaLine/src/build/aqua2_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ajbam/aquaLine/src/aqua2_interfaces -DCMAKE_INSTALL_PREFIX=/home/ajbam/aquaLine/src/install/aqua2_interfaces
+[1.028s] Invoking command in '/home/ajbam/aquaLine/src/build/aqua2_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ajbam/aquaLine/src/build/aqua2_interfaces -- -j32 -l32
+[1.052s] [35m[1mScanning dependencies of target aqua2_interfaces__cpp[0m
+[1.052s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.058s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.877s] [  0%] Built target aqua2_interfaces__cpp
+[1.882s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.882s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.882s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.949s] [35m[1mScanning dependencies of target aqua2_interfaces__rosidl_generator_c[0m
+[1.961s] [  3%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/msg/detail/command__functions.c.o[0m
+[1.961s] [  4%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/msg/detail/status_indicator__functions.c.o[0m
+[1.961s] [  5%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/msg/detail/health__functions.c.o[0m
+[1.964s] [  6%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/msg/detail/autopilot_command__functions.c.o[0m
+[1.964s] [  6%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/msg/detail/autopilot_targets__functions.c.o[0m
+[1.964s] [  6%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/msg/detail/autopilot_pid_components__functions.c.o[0m
+[1.964s] [  6%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/msg/detail/b_box__functions.c.o[0m
+[1.964s] [  6%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/msg/detail/autopilot_output__functions.c.o[0m
+[1.964s] [  7%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/msg/detail/periodic_leg_command__functions.c.o[0m
+[1.965s] [  8%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/msg/detail/robodevel_state__functions.c.o[0m
+[1.965s] [  8%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/msg/detail/waypoint__functions.c.o[0m
+[1.965s] [  8%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/msg/detail/leg_state__functions.c.o[0m
+[1.965s] [  9%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/srv/detail/get_named_float__functions.c.o[0m
+[1.965s] [ 10%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/msg/detail/tag_feedback__functions.c.o[0m
+[1.965s] [ 10%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/srv/detail/get_autopilot_state__functions.c.o[0m
+[1.965s] [ 10%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/srv/detail/get_string__functions.c.o[0m
+[1.965s] [ 11%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/srv/detail/get_bool__functions.c.o[0m
+[1.966s] [ 11%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/srv/detail/get_named_bool__functions.c.o[0m
+[1.966s] [ 11%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/srv/detail/get_named_int__functions.c.o[0m
+[1.967s] [ 11%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/srv/detail/set_named_float__functions.c.o[0m
+[1.967s] [ 12%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/srv/detail/mission_update__functions.c.o[0m
+[1.967s] [ 12%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/srv/detail/set_autopilot_mode__functions.c.o[0m
+[1.967s] [ 12%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/srv/detail/set_float__functions.c.o[0m
+[1.967s] [ 13%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/srv/detail/set_int__functions.c.o[0m
+[1.968s] [ 14%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/srv/detail/set_bool__functions.c.o[0m
+[1.968s] [ 14%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/srv/detail/set_leg_params__functions.c.o[0m
+[1.970s] [ 15%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aqua2_interfaces/srv/detail/set_string__functions.c.o[0m
+[2.021s] [ 15%] [32m[1mLinking C shared library libaqua2_interfaces__rosidl_generator_c.so[0m
+[2.043s] [ 15%] Built target aqua2_interfaces__rosidl_generator_c
+[2.048s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.048s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.432s] [35m[1mScanning dependencies of target aqua2_interfaces__rosidl_typesupport_cpp[0m
+[2.444s] [ 17%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/msg/status_indicator__type_support.cpp.o[0m
+[2.444s] [ 17%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/msg/autopilot_command__type_support.cpp.o[0m
+[2.445s] [ 17%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/msg/command__type_support.cpp.o[0m
+[2.446s] [ 18%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/msg/health__type_support.cpp.o[0m
+[2.446s] [ 19%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/msg/autopilot_targets__type_support.cpp.o[0m
+[2.446s] [ 19%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/msg/leg_state__type_support.cpp.o[0m
+[2.447s] [ 19%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/msg/periodic_leg_command__type_support.cpp.o[0m
+[2.447s] [ 19%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/msg/autopilot_output__type_support.cpp.o[0m
+[2.447s] [ 20%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/msg/autopilot_pid_components__type_support.cpp.o[0m
+[2.447s] [ 21%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/msg/waypoint__type_support.cpp.o[0m
+[2.447s] [ 21%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/msg/robodevel_state__type_support.cpp.o[0m
+[2.448s] [ 22%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/msg/b_box__type_support.cpp.o[0m
+[2.449s] [ 22%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/msg/tag_feedback__type_support.cpp.o[0m
+[2.449s] [ 22%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/srv/get_autopilot_state__type_support.cpp.o[0m
+[2.450s] [ 24%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/srv/set_bool__type_support.cpp.o[0m
+[2.450s] [ 24%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/srv/get_bool__type_support.cpp.o[0m
+[2.450s] [ 25%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/srv/get_string__type_support.cpp.o[0m
+[2.450s] [ 25%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/srv/get_named_bool__type_support.cpp.o[0m
+[2.451s] [ 25%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/srv/get_named_int__type_support.cpp.o[0m
+[2.451s] [ 25%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/srv/set_autopilot_mode__type_support.cpp.o[0m
+[2.451s] [ 26%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/srv/get_named_float__type_support.cpp.o[0m
+[2.452s] [ 26%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/srv/set_float__type_support.cpp.o[0m
+[2.452s] [ 26%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/srv/mission_update__type_support.cpp.o[0m
+[2.454s] [ 27%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/srv/set_int__type_support.cpp.o[0m
+[2.470s] [ 27%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/srv/set_leg_params__type_support.cpp.o[0m
+[2.489s] [ 27%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/srv/set_named_float__type_support.cpp.o[0m
+[2.506s] [ 28%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aqua2_interfaces/srv/set_string__type_support.cpp.o[0m
+[2.668s] [35m[1mScanning dependencies of target aqua2_interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.677s] [35m[1mScanning dependencies of target aqua2_interfaces__rosidl_typesupport_c[0m
+[2.685s] [ 29%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/msg/detail/health__type_support.cpp.o[0m
+[2.685s] [ 29%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/msg/detail/command__type_support.cpp.o[0m
+[2.685s] [ 29%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/msg/detail/autopilot_command__type_support.cpp.o[0m
+[2.685s] [ 29%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/msg/detail/status_indicator__type_support.cpp.o[0m
+[2.686s] [ 29%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/msg/detail/periodic_leg_command__type_support.cpp.o[0m
+[2.686s] [ 30%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/msg/detail/autopilot_targets__type_support.cpp.o[0m
+[2.687s] [ 31%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/msg/detail/leg_state__type_support.cpp.o[0m
+[2.687s] [ 31%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/msg/detail/autopilot_output__type_support.cpp.o[0m
+[2.687s] [ 32%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/msg/detail/autopilot_pid_components__type_support.cpp.o[0m
+[2.687s] [ 32%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/msg/detail/robodevel_state__type_support.cpp.o[0m
+[2.687s] [ 32%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/msg/detail/waypoint__type_support.cpp.o[0m
+[2.688s] [ 33%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/srv/detail/get_autopilot_state__type_support.cpp.o[0m
+[2.688s] [ 33%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/srv/detail/get_named_bool__type_support.cpp.o[0m
+[2.688s] [ 33%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/srv/detail/get_bool__type_support.cpp.o[0m
+[2.688s] [ 33%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/msg/detail/tag_feedback__type_support.cpp.o[0m
+[2.688s] [ 34%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/msg/detail/b_box__type_support.cpp.o[0m
+[2.689s] [ 35%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/srv/detail/get_string__type_support.cpp.o[0m
+[2.689s] [ 35%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/srv/detail/mission_update__type_support.cpp.o[0m
+[2.689s] [ 36%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/srv/detail/get_named_float__type_support.cpp.o[0m
+[2.689s] [ 36%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/srv/detail/get_named_int__type_support.cpp.o[0m
+[2.690s] [ 37%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/msg/status_indicator__type_support.cpp.o[0m
+[2.690s] [ 37%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/srv/detail/set_autopilot_mode__type_support.cpp.o[0m
+[2.690s] [ 38%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/msg/health__type_support.cpp.o[0m
+[2.691s] [ 38%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/msg/command__type_support.cpp.o[0m
+[2.692s] [ 38%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/srv/detail/set_float__type_support.cpp.o[0m
+[2.693s] [ 38%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/srv/detail/set_bool__type_support.cpp.o[0m
+[2.693s] [ 38%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/msg/autopilot_command__type_support.cpp.o[0m
+[2.706s] [ 38%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/msg/autopilot_output__type_support.cpp.o[0m
+[2.707s] [ 39%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/msg/autopilot_targets__type_support.cpp.o[0m
+[2.728s] [ 40%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/srv/detail/set_int__type_support.cpp.o[0m
+[2.729s] [ 40%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/srv/detail/set_leg_params__type_support.cpp.o[0m
+[2.729s] [ 41%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/msg/autopilot_pid_components__type_support.cpp.o[0m
+[2.735s] [ 41%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/msg/periodic_leg_command__type_support.cpp.o[0m
+[2.751s] [ 42%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/msg/leg_state__type_support.cpp.o[0m
+[2.751s] [ 42%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/msg/waypoint__type_support.cpp.o[0m
+[2.760s] [ 42%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/msg/robodevel_state__type_support.cpp.o[0m
+[2.788s] [ 43%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/msg/b_box__type_support.cpp.o[0m
+[2.788s] [ 44%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/srv/detail/set_named_float__type_support.cpp.o[0m
+[2.794s] [ 44%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/msg/tag_feedback__type_support.cpp.o[0m
+[2.806s] [ 44%] [32m[1mLinking CXX shared library libaqua2_interfaces__rosidl_typesupport_cpp.so[0m
+[2.814s] [ 44%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/srv/get_autopilot_state__type_support.cpp.o[0m
+[2.821s] [ 45%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/srv/get_bool__type_support.cpp.o[0m
+[2.846s] [ 45%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/srv/get_named_bool__type_support.cpp.o[0m
+[2.865s] [ 46%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/srv/get_named_float__type_support.cpp.o[0m
+[2.866s] [ 46%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aqua2_interfaces/srv/detail/set_string__type_support.cpp.o[0m
+[2.870s] [ 46%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/srv/get_named_int__type_support.cpp.o[0m
+[2.878s] [ 47%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/srv/get_string__type_support.cpp.o[0m
+[2.879s] [ 47%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/srv/mission_update__type_support.cpp.o[0m
+[2.881s] [ 47%] Built target aqua2_interfaces__rosidl_typesupport_cpp
+[2.883s] [ 47%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/srv/set_autopilot_mode__type_support.cpp.o[0m
+[2.905s] [ 48%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/srv/set_bool__type_support.cpp.o[0m
+[2.907s] [ 49%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/srv/set_float__type_support.cpp.o[0m
+[2.907s] [ 49%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/srv/set_int__type_support.cpp.o[0m
+[2.910s] [ 49%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/srv/set_leg_params__type_support.cpp.o[0m
+[2.911s] [ 49%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/srv/set_named_float__type_support.cpp.o[0m
+[2.912s] [ 50%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aqua2_interfaces/srv/set_string__type_support.cpp.o[0m
+[2.929s] [35m[1mScanning dependencies of target aqua2_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.935s] [ 50%] [32m[1mLinking CXX shared library libaqua2_interfaces__rosidl_typesupport_c.so[0m
+[2.955s] [ 51%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/msg/detail/dds_fastrtps/health__type_support.cpp.o[0m
+[2.955s] [ 51%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/msg/detail/dds_fastrtps/status_indicator__type_support.cpp.o[0m
+[2.957s] [ 51%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/msg/detail/dds_fastrtps/autopilot_command__type_support.cpp.o[0m
+[2.958s] [ 51%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/msg/detail/dds_fastrtps/autopilot_output__type_support.cpp.o[0m
+[2.958s] [ 52%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/msg/detail/dds_fastrtps/leg_state__type_support.cpp.o[0m
+[2.958s] [ 52%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/msg/detail/dds_fastrtps/autopilot_targets__type_support.cpp.o[0m
+[2.959s] [ 55%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/msg/detail/dds_fastrtps/b_box__type_support.cpp.o[0m
+[2.959s] [ 55%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/msg/detail/dds_fastrtps/periodic_leg_command__type_support.cpp.o[0m
+[2.960s] [ 51%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/msg/detail/dds_fastrtps/command__type_support.cpp.o[0m
+[2.961s] [ 55%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/msg/detail/dds_fastrtps/autopilot_pid_components__type_support.cpp.o[0m
+[2.961s] [ 55%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/msg/detail/dds_fastrtps/waypoint__type_support.cpp.o[0m
+[2.961s] [ 55%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/msg/detail/dds_fastrtps/tag_feedback__type_support.cpp.o[0m
+[2.961s] [ 55%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/msg/detail/dds_fastrtps/robodevel_state__type_support.cpp.o[0m
+[2.961s] [ 56%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/srv/detail/dds_fastrtps/get_autopilot_state__type_support.cpp.o[0m
+[2.962s] [ 57%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/srv/detail/dds_fastrtps/get_named_float__type_support.cpp.o[0m
+[2.962s] [ 57%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/srv/detail/dds_fastrtps/get_named_bool__type_support.cpp.o[0m
+[2.963s] [ 57%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/srv/detail/dds_fastrtps/get_named_int__type_support.cpp.o[0m
+[2.964s] [ 57%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/srv/detail/dds_fastrtps/mission_update__type_support.cpp.o[0m
+[2.980s] [ 58%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/srv/detail/dds_fastrtps/set_float__type_support.cpp.o[0m
+[2.980s] [ 58%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/srv/detail/dds_fastrtps/get_string__type_support.cpp.o[0m
+[2.980s] [ 58%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/srv/detail/dds_fastrtps/get_bool__type_support.cpp.o[0m
+[2.980s] [ 58%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/srv/detail/dds_fastrtps/set_autopilot_mode__type_support.cpp.o[0m
+[2.980s] [ 59%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/srv/detail/dds_fastrtps/set_bool__type_support.cpp.o[0m
+[2.980s] [ 60%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/srv/detail/dds_fastrtps/set_int__type_support.cpp.o[0m
+[2.980s] [ 60%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/srv/detail/dds_fastrtps/set_leg_params__type_support.cpp.o[0m
+[2.980s] [ 60%] Built target aqua2_interfaces__rosidl_typesupport_c
+[2.980s] [ 60%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/srv/detail/dds_fastrtps/set_string__type_support.cpp.o[0m
+[2.980s] [ 61%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aqua2_interfaces/srv/detail/dds_fastrtps/set_named_float__type_support.cpp.o[0m
+[2.980s] [35m[1mScanning dependencies of target aqua2_interfaces__rosidl_typesupport_introspection_c[0m
+[3.022s] [ 61%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/msg/detail/status_indicator__type_support.c.o[0m
+[3.026s] [ 62%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/msg/detail/command__type_support.c.o[0m
+[3.054s] [ 63%] [32m[1mLinking CXX shared library libaqua2_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.063s] [ 63%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/msg/detail/autopilot_output__type_support.c.o[0m
+[3.065s] [ 63%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/msg/detail/health__type_support.c.o[0m
+[3.073s] [ 63%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/msg/detail/autopilot_command__type_support.c.o[0m
+[3.077s] [ 64%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/msg/detail/autopilot_targets__type_support.c.o[0m
+[3.089s] [ 65%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/msg/detail/autopilot_pid_components__type_support.c.o[0m
+[3.103s] [ 65%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/msg/detail/periodic_leg_command__type_support.c.o[0m
+[3.116s] [ 66%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/msg/detail/leg_state__type_support.c.o[0m
+[3.118s] [ 66%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/msg/detail/waypoint__type_support.c.o[0m
+[3.142s] [ 66%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/msg/detail/robodevel_state__type_support.c.o[0m
+[3.169s] [ 67%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/msg/detail/b_box__type_support.c.o[0m
+[3.175s] [ 67%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/msg/detail/tag_feedback__type_support.c.o[0m
+[3.180s] [ 68%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/srv/detail/get_autopilot_state__type_support.c.o[0m
+[3.188s] [ 68%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/srv/detail/get_bool__type_support.c.o[0m
+[3.199s] [ 68%] Built target aqua2_interfaces__rosidl_typesupport_introspection_cpp
+[3.211s] [ 69%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/srv/detail/get_named_bool__type_support.c.o[0m
+[3.212s] [ 70%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/srv/detail/get_string__type_support.c.o[0m
+[3.212s] [ 70%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/srv/detail/get_named_int__type_support.c.o[0m
+[3.219s] [ 70%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/srv/detail/get_named_float__type_support.c.o[0m
+[3.226s] [ 70%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/srv/detail/mission_update__type_support.c.o[0m
+[3.234s] [ 71%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/srv/detail/set_autopilot_mode__type_support.c.o[0m
+[3.244s] [ 72%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/srv/detail/set_bool__type_support.c.o[0m
+[3.244s] [ 72%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/srv/detail/set_int__type_support.c.o[0m
+[3.245s] [ 72%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/srv/detail/set_leg_params__type_support.c.o[0m
+[3.246s] [ 72%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/srv/detail/set_float__type_support.c.o[0m
+[3.250s] [ 73%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/srv/detail/set_named_float__type_support.c.o[0m
+[3.254s] [ 73%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aqua2_interfaces/srv/detail/set_string__type_support.c.o[0m
+[3.275s] [ 74%] [32m[1mLinking C shared library libaqua2_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.296s] [ 74%] Built target aqua2_interfaces__rosidl_typesupport_introspection_c
+[3.352s] [ 74%] [32m[1mLinking CXX shared library libaqua2_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.398s] [ 74%] Built target aqua2_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.404s] [ 75%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.082s] [35m[1mScanning dependencies of target aqua2_interfaces__rosidl_typesupport_fastrtps_c[0m
+[4.107s] [ 75%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/msg/detail/status_indicator__type_support_c.cpp.o[0m
+[4.107s] [ 76%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/msg/detail/command__type_support_c.cpp.o[0m
+[4.107s] [ 76%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/msg/detail/health__type_support_c.cpp.o[0m
+[4.108s] [ 76%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/msg/detail/autopilot_command__type_support_c.cpp.o[0m
+[4.108s] [ 77%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/msg/detail/autopilot_targets__type_support_c.cpp.o[0m
+[4.109s] [ 77%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/msg/detail/autopilot_output__type_support_c.cpp.o[0m
+[4.109s] [ 78%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/msg/detail/autopilot_pid_components__type_support_c.cpp.o[0m
+[4.111s] [ 79%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/msg/detail/b_box__type_support_c.cpp.o[0m
+[4.112s] [ 79%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/msg/detail/robodevel_state__type_support_c.cpp.o[0m
+[4.112s] [ 79%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/msg/detail/periodic_leg_command__type_support_c.cpp.o[0m
+[4.113s] [ 80%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/msg/detail/waypoint__type_support_c.cpp.o[0m
+[4.113s] [ 80%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/msg/detail/leg_state__type_support_c.cpp.o[0m
+[4.113s] [ 81%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/srv/detail/get_autopilot_state__type_support_c.cpp.o[0m
+[4.113s] [ 82%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/srv/detail/get_named_float__type_support_c.cpp.o[0m
+[4.114s] [ 82%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/msg/detail/tag_feedback__type_support_c.cpp.o[0m
+[4.115s] [ 82%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/srv/detail/get_bool__type_support_c.cpp.o[0m
+[4.115s] [ 82%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/srv/detail/get_named_bool__type_support_c.cpp.o[0m
+[4.115s] [ 83%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/srv/detail/get_string__type_support_c.cpp.o[0m
+[4.115s] [ 83%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/srv/detail/get_named_int__type_support_c.cpp.o[0m
+[4.116s] [ 83%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/srv/detail/mission_update__type_support_c.cpp.o[0m
+[4.116s] [ 84%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/srv/detail/set_int__type_support_c.cpp.o[0m
+[4.116s] [ 84%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/srv/detail/set_autopilot_mode__type_support_c.cpp.o[0m
+[4.116s] [ 84%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/srv/detail/set_string__type_support_c.cpp.o[0m
+[4.116s] [ 84%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/srv/detail/set_leg_params__type_support_c.cpp.o[0m
+[4.116s] [ 85%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/srv/detail/set_named_float__type_support_c.cpp.o[0m
+[4.116s] [ 86%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/srv/detail/set_bool__type_support_c.cpp.o[0m
+[4.117s] [ 86%] [32mBuilding CXX object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aqua2_interfaces/srv/detail/set_float__type_support_c.cpp.o[0m
+[4.399s] [ 86%] [32m[1mLinking CXX shared library libaqua2_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.443s] [ 86%] Built target aqua2_interfaces__rosidl_typesupport_fastrtps_c
+[4.447s] [35m[1mScanning dependencies of target aqua2_interfaces[0m
+[4.452s] [ 86%] Built target aqua2_interfaces
+[4.457s] [35m[1mScanning dependencies of target aqua2_interfaces__py[0m
+[4.462s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.014s] [ 86%] Built target aqua2_interfaces__py
+[6.018s] [35m[1mScanning dependencies of target aqua2_interfaces__python[0m
+[6.046s] [ 87%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/msg/_status_indicator_s.c.o[0m
+[6.046s] [ 87%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/msg/_command_s.c.o[0m
+[6.046s] [ 87%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/msg/_autopilot_command_s.c.o[0m
+[6.046s] [ 88%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/msg/_health_s.c.o[0m
+[6.047s] [ 88%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/msg/_autopilot_targets_s.c.o[0m
+[6.047s] [ 89%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/msg/_autopilot_output_s.c.o[0m
+[6.047s] [ 89%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/msg/_autopilot_pid_components_s.c.o[0m
+[6.047s] [ 90%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/msg/_periodic_leg_command_s.c.o[0m
+[6.049s] [ 90%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/msg/_leg_state_s.c.o[0m
+[6.050s] [ 91%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/msg/_waypoint_s.c.o[0m
+[6.050s] [ 91%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/msg/_robodevel_state_s.c.o[0m
+[6.050s] [ 92%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/srv/_get_bool_s.c.o[0m
+[6.050s] [ 92%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/msg/_b_box_s.c.o[0m
+[6.050s] [ 93%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/msg/_tag_feedback_s.c.o[0m
+[6.050s] [ 94%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/srv/_set_bool_s.c.o[0m
+[6.050s] [ 94%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/srv/_get_autopilot_state_s.c.o[0m
+[6.051s] [ 94%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/srv/_get_named_bool_s.c.o[0m
+[6.051s] [ 94%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/srv/_get_string_s.c.o[0m
+[6.051s] [ 94%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/srv/_get_named_float_s.c.o[0m
+[6.051s] [ 94%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/srv/_set_float_s.c.o[0m
+[6.051s] [ 95%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/srv/_get_named_int_s.c.o[0m
+[6.051s] [ 95%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/srv/_set_autopilot_mode_s.c.o[0m
+[6.051s] [ 96%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/srv/_mission_update_s.c.o[0m
+[6.052s] [ 96%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/srv/_set_int_s.c.o[0m
+[6.052s] [ 97%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/srv/_set_leg_params_s.c.o[0m
+[6.053s] [ 98%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/srv/_set_named_float_s.c.o[0m
+[6.053s] [ 98%] [32mBuilding C object CMakeFiles/aqua2_interfaces__python.dir/rosidl_generator_py/aqua2_interfaces/srv/_set_string_s.c.o[0m
+[6.124s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/aqua2_interfaces/libaqua2_interfaces__python.so[0m
+[6.148s] [ 98%] Built target aqua2_interfaces__python
+[6.153s] [35m[1mScanning dependencies of target aqua2_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[6.153s] [35m[1mScanning dependencies of target aqua2_interfaces__rosidl_typesupport_c__pyext[0m
+[6.153s] [35m[1mScanning dependencies of target aqua2_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.163s] [ 98%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aqua2_interfaces/_aqua2_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.163s] [ 99%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/aqua2_interfaces/_aqua2_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.163s] [100%] [32mBuilding C object CMakeFiles/aqua2_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/aqua2_interfaces/_aqua2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.257s] [100%] [32m[1mLinking C shared library rosidl_generator_py/aqua2_interfaces/aqua2_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.257s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/aqua2_interfaces/aqua2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.257s] [100%] [32m[1mLinking C shared library rosidl_generator_py/aqua2_interfaces/aqua2_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.277s] [100%] Built target aqua2_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.277s] [100%] Built target aqua2_interfaces__rosidl_typesupport_c__pyext
+[6.291s] [100%] Built target aqua2_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.297s] Invoked command in '/home/ajbam/aquaLine/src/build/aqua2_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ajbam/aquaLine/src/build/aqua2_interfaces -- -j32 -l32
+[6.443s] Invoking command in '/home/ajbam/aquaLine/src/build/aqua2_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ajbam/aquaLine/src/build/aqua2_interfaces
+[6.446s] -- Install configuration: ""
+[6.446s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/ament_index/resource_index/rosidl_interfaces/aqua2_interfaces
+[6.446s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces
+[6.446s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv
+[6.446s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/set_named_float.h
+[6.446s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/get_named_float.h
+[6.447s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/mission_update.h
+[6.447s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/get_autopilot_state.h
+[6.447s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/get_string.h
+[6.447s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/set_leg_params.h
+[6.447s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/get_named_int.h
+[6.447s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/get_bool.h
+[6.447s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/set_autopilot_mode.h
+[6.447s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/get_named_bool.h
+[6.447s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/set_float.h
+[6.447s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/set_bool.h
+[6.447s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/set_int.h
+[6.447s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/set_string.h
+[6.447s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail
+[6.447s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_leg_params__functions.c
+[6.447s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_string__struct.h
+[6.447s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/mission_update__functions.h
+[6.447s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_int__type_support.h
+[6.448s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_string__functions.c
+[6.448s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_bool__functions.h
+[6.448s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_named_float__functions.c
+[6.448s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_float__struct.h
+[6.448s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_float__functions.c
+[6.448s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_autopilot_state__struct.h
+[6.448s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_int__struct.h
+[6.448s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_string__struct.h
+[6.448s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_float__functions.h
+[6.448s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_string__type_support.h
+[6.448s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_autopilot_mode__functions.c
+[6.448s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_named_float__type_support.h
+[6.448s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_leg_params__type_support.h
+[6.448s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_bool__struct.h
+[6.448s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_autopilot_state__functions.h
+[6.449s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_float__functions.c
+[6.449s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_bool__struct.h
+[6.449s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_float__type_support.h
+[6.449s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_string__functions.c
+[6.449s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_bool__type_support.h
+[6.449s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_autopilot_mode__functions.h
+[6.449s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_autopilot_mode__struct.h
+[6.449s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/mission_update__struct.h
+[6.449s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_autopilot_mode__type_support.h
+[6.449s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_string__functions.h
+[6.449s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_named_float__struct.h
+[6.449s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_int__functions.c
+[6.449s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_string__type_support.h
+[6.449s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_bool__type_support.h
+[6.449s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_bool__functions.c
+[6.450s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_leg_params__functions.h
+[6.450s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_int__functions.h
+[6.450s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_bool__functions.c
+[6.450s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_bool__type_support.h
+[6.450s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_leg_params__struct.h
+[6.450s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/mission_update__functions.c
+[6.450s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_bool__functions.h
+[6.450s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_bool__functions.h
+[6.450s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_string__functions.h
+[6.450s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_autopilot_state__type_support.h
+[6.450s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_float__functions.h
+[6.450s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_named_float__functions.h
+[6.450s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_bool__struct.h
+[6.450s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/mission_update__type_support.h
+[6.450s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_int__functions.c
+[6.450s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_int__type_support.h
+[6.450s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_float__type_support.h
+[6.451s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_int__functions.h
+[6.451s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_int__struct.h
+[6.451s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_autopilot_state__functions.c
+[6.451s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_bool__functions.c
+[6.451s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_float__struct.h
+[6.451s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg
+[6.451s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/autopilot_pid_components.h
+[6.451s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/waypoint.h
+[6.451s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/command.h
+[6.451s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.451s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/autopilot_command.h
+[6.451s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/b_box.h
+[6.451s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/robodevel_state.h
+[6.451s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/periodic_leg_command.h
+[6.451s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/health.h
+[6.451s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/autopilot_output.h
+[6.451s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/status_indicator.h
+[6.451s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/tag_feedback.h
+[6.451s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/autopilot_targets.h
+[6.451s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/leg_state.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/waypoint__functions.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_command__functions.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/status_indicator__type_support.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_pid_components__struct.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/leg_state__type_support.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_targets__functions.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_targets__functions.c
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/periodic_leg_command__functions.c
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_targets__struct.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/robodevel_state__functions.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/b_box__functions.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/robodevel_state__functions.c
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/health__struct.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/b_box__struct.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/tag_feedback__struct.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/b_box__type_support.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_pid_components__functions.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/robodevel_state__struct.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/health__functions.c
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/status_indicator__functions.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/command__struct.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_pid_components__functions.c
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/health__type_support.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/tag_feedback__type_support.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/leg_state__functions.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/waypoint__type_support.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_command__struct.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_output__functions.c
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/waypoint__functions.c
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/periodic_leg_command__functions.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_output__functions.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/leg_state__functions.c
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_command__type_support.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/tag_feedback__functions.c
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/command__functions.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/leg_state__struct.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/periodic_leg_command__type_support.h
+[6.452s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_output__type_support.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/command__functions.c
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/health__functions.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_output__struct.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/periodic_leg_command__struct.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/command__type_support.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/b_box__functions.c
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/tag_feedback__functions.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/status_indicator__functions.c
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/robodevel_state__type_support.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/status_indicator__struct.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_command__functions.c
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/waypoint__struct.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_targets__type_support.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_pid_components__type_support.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/environment/library_path.sh
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/environment/library_path.dsv
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/libaqua2_interfaces__rosidl_generator_c.so
+[6.453s] -- Set runtime path of "/home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/libaqua2_interfaces__rosidl_generator_c.so" to ""
+[6.453s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces
+[6.453s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv
+[6.453s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_named_float__rosidl_typesupport_fastrtps_c.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_bool__rosidl_typesupport_fastrtps_c.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/mission_update__rosidl_typesupport_fastrtps_c.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_bool__rosidl_typesupport_fastrtps_c.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_leg_params__rosidl_typesupport_fastrtps_c.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_string__rosidl_typesupport_fastrtps_c.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_bool__rosidl_typesupport_fastrtps_c.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_autopilot_mode__rosidl_typesupport_fastrtps_c.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_int__rosidl_typesupport_fastrtps_c.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_string__rosidl_typesupport_fastrtps_c.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_float__rosidl_typesupport_fastrtps_c.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_autopilot_state__rosidl_typesupport_fastrtps_c.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_float__rosidl_typesupport_fastrtps_c.h
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_int__rosidl_typesupport_fastrtps_c.h
+[6.453s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.453s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail
+[6.453s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/status_indicator__rosidl_typesupport_fastrtps_c.h
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_pid_components__rosidl_typesupport_fastrtps_c.h
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/b_box__rosidl_typesupport_fastrtps_c.h
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/command__rosidl_typesupport_fastrtps_c.h
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_targets__rosidl_typesupport_fastrtps_c.h
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/periodic_leg_command__rosidl_typesupport_fastrtps_c.h
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_command__rosidl_typesupport_fastrtps_c.h
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/robodevel_state__rosidl_typesupport_fastrtps_c.h
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_output__rosidl_typesupport_fastrtps_c.h
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/leg_state__rosidl_typesupport_fastrtps_c.h
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/waypoint__rosidl_typesupport_fastrtps_c.h
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/health__rosidl_typesupport_fastrtps_c.h
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/tag_feedback__rosidl_typesupport_fastrtps_c.h
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/libaqua2_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.454s] -- Set runtime path of "/home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/libaqua2_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[6.454s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces
+[6.454s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv
+[6.454s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/dds_fastrtps
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_string__rosidl_typesupport_fastrtps_cpp.hpp
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_string__rosidl_typesupport_fastrtps_cpp.hpp
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_float__rosidl_typesupport_fastrtps_cpp.hpp
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_autopilot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_int__rosidl_typesupport_fastrtps_cpp.hpp
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_named_float__rosidl_typesupport_fastrtps_cpp.hpp
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_float__rosidl_typesupport_fastrtps_cpp.hpp
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_int__rosidl_typesupport_fastrtps_cpp.hpp
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/mission_update__rosidl_typesupport_fastrtps_cpp.hpp
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_leg_params__rosidl_typesupport_fastrtps_cpp.hpp
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_autopilot_state__rosidl_typesupport_fastrtps_cpp.hpp
+[6.454s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.454s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/health__rosidl_typesupport_fastrtps_cpp.hpp
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/robodevel_state__rosidl_typesupport_fastrtps_cpp.hpp
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_output__rosidl_typesupport_fastrtps_cpp.hpp
+[6.454s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_targets__rosidl_typesupport_fastrtps_cpp.hpp
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/dds_fastrtps
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_command__rosidl_typesupport_fastrtps_cpp.hpp
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/leg_state__rosidl_typesupport_fastrtps_cpp.hpp
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/periodic_leg_command__rosidl_typesupport_fastrtps_cpp.hpp
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_pid_components__rosidl_typesupport_fastrtps_cpp.hpp
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/status_indicator__rosidl_typesupport_fastrtps_cpp.hpp
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/b_box__rosidl_typesupport_fastrtps_cpp.hpp
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/tag_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/command__rosidl_typesupport_fastrtps_cpp.hpp
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/libaqua2_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.455s] -- Set runtime path of "/home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/libaqua2_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.455s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces
+[6.455s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv
+[6.455s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_named_float__type_support.c
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_string__rosidl_typesupport_introspection_c.h
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/mission_update__type_support.c
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/mission_update__rosidl_typesupport_introspection_c.h
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_bool__type_support.c
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_bool__type_support.c
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_bool__rosidl_typesupport_introspection_c.h
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_bool__rosidl_typesupport_introspection_c.h
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_int__rosidl_typesupport_introspection_c.h
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_int__rosidl_typesupport_introspection_c.h
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_leg_params__type_support.c
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_int__type_support.c
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_autopilot_mode__type_support.c
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_string__type_support.c
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_autopilot_state__rosidl_typesupport_introspection_c.h
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_float__type_support.c
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_bool__type_support.c
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_bool__rosidl_typesupport_introspection_c.h
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_int__type_support.c
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_float__type_support.c
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_autopilot_state__type_support.c
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_string__type_support.c
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_float__rosidl_typesupport_introspection_c.h
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_named_float__rosidl_typesupport_introspection_c.h
+[6.455s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_leg_params__rosidl_typesupport_introspection_c.h
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_float__rosidl_typesupport_introspection_c.h
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_autopilot_mode__rosidl_typesupport_introspection_c.h
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_string__rosidl_typesupport_introspection_c.h
+[6.456s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.456s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/waypoint__rosidl_typesupport_introspection_c.h
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_targets__rosidl_typesupport_introspection_c.h
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/robodevel_state__type_support.c
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/tag_feedback__type_support.c
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/leg_state__rosidl_typesupport_introspection_c.h
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/status_indicator__rosidl_typesupport_introspection_c.h
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/periodic_leg_command__rosidl_typesupport_introspection_c.h
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/periodic_leg_command__type_support.c
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/status_indicator__type_support.c
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_pid_components__type_support.c
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/tag_feedback__rosidl_typesupport_introspection_c.h
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_command__rosidl_typesupport_introspection_c.h
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/command__rosidl_typesupport_introspection_c.h
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/command__type_support.c
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/health__type_support.c
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_command__type_support.c
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_output__type_support.c
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/b_box__type_support.c
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/health__rosidl_typesupport_introspection_c.h
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/leg_state__type_support.c
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_targets__type_support.c
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_output__rosidl_typesupport_introspection_c.h
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/robodevel_state__rosidl_typesupport_introspection_c.h
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/b_box__rosidl_typesupport_introspection_c.h
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/waypoint__type_support.c
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_pid_components__rosidl_typesupport_introspection_c.h
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/libaqua2_interfaces__rosidl_typesupport_introspection_c.so
+[6.456s] -- Set runtime path of "/home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/libaqua2_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.456s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/libaqua2_interfaces__rosidl_typesupport_c.so
+[6.456s] -- Set runtime path of "/home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/libaqua2_interfaces__rosidl_typesupport_c.so" to ""
+[6.456s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces
+[6.456s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/get_named_bool.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/get_bool.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/set_int.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/set_autopilot_mode.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/set_float.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/set_named_float.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/mission_update.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/set_bool.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/get_string.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/get_autopilot_state.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/get_named_float.hpp
+[6.457s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_autopilot_mode__type_support.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_autopilot_mode__struct.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_int__builder.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_named_float__struct.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_leg_params__traits.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_bool__traits.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/mission_update__traits.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_int__type_support.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_bool__builder.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_bool__traits.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_bool__type_support.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_string__builder.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_bool__builder.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_float__struct.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_leg_params__type_support.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_autopilot_state__struct.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/mission_update__type_support.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_int__type_support.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_float__struct.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_int__struct.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_float__type_support.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_named_float__traits.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_int__struct.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_autopilot_mode__builder.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_string__builder.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_bool__traits.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_int__traits.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_string__type_support.hpp
+[6.457s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_string__traits.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_string__type_support.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_int__builder.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_string__traits.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/mission_update__builder.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_float__traits.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_autopilot_state__type_support.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_float__builder.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_autopilot_state__traits.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_float__builder.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_bool__type_support.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_autopilot_state__builder.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_bool__builder.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_bool__type_support.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_float__traits.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_float__type_support.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_bool__struct.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_leg_params__struct.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_bool__struct.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_autopilot_mode__traits.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_named_float__type_support.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_string__struct.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_named_float__builder.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_leg_params__builder.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_string__struct.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_bool__struct.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/mission_update__struct.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_int__traits.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/set_leg_params.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/set_string.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/get_named_int.hpp
+[6.458s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/status_indicator.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/b_box.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/robodevel_state.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/leg_state.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/autopilot_command.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/waypoint.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/autopilot_targets.hpp
+[6.458s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/tag_feedback.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/command.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/periodic_leg_command.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/autopilot_pid_components.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/health.hpp
+[6.459s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/leg_state__type_support.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_output__builder.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/robodevel_state__builder.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/status_indicator__struct.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/periodic_leg_command__builder.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/command__struct.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/b_box__builder.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/b_box__traits.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/status_indicator__type_support.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/status_indicator__builder.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/health__builder.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/tag_feedback__type_support.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_output__struct.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/leg_state__builder.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/health__struct.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/b_box__type_support.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/waypoint__traits.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/robodevel_state__traits.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/status_indicator__traits.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/periodic_leg_command__traits.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/command__type_support.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_targets__struct.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_pid_components__type_support.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/leg_state__struct.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/robodevel_state__type_support.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_pid_components__struct.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_output__type_support.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/periodic_leg_command__type_support.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_pid_components__builder.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/tag_feedback__traits.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_pid_components__traits.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/health__traits.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/periodic_leg_command__struct.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_targets__builder.hpp
+[6.459s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_command__type_support.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/command__builder.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_command__traits.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/tag_feedback__struct.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/robodevel_state__struct.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/waypoint__type_support.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/command__traits.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_targets__type_support.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/health__type_support.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_command__struct.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_command__builder.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/waypoint__builder.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/waypoint__struct.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_targets__traits.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/leg_state__traits.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/b_box__struct.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_output__traits.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/tag_feedback__builder.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/autopilot_output.hpp
+[6.460s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces
+[6.460s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv
+[6.460s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_int__type_support.cpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_int__rosidl_typesupport_introspection_cpp.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_int__rosidl_typesupport_introspection_cpp.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_bool__type_support.cpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_bool__rosidl_typesupport_introspection_cpp.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/mission_update__rosidl_typesupport_introspection_cpp.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_float__rosidl_typesupport_introspection_cpp.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_autopilot_state__rosidl_typesupport_introspection_cpp.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_bool__type_support.cpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_float__rosidl_typesupport_introspection_cpp.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_string__type_support.cpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_autopilot_mode__type_support.cpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_leg_params__type_support.cpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_string__rosidl_typesupport_introspection_cpp.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_bool__type_support.cpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_autopilot_state__type_support.cpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_named_float__rosidl_typesupport_introspection_cpp.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/mission_update__type_support.cpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_bool__rosidl_typesupport_introspection_cpp.hpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_float__type_support.cpp
+[6.460s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_autopilot_mode__rosidl_typesupport_introspection_cpp.hpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_named_float__type_support.cpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_bool__rosidl_typesupport_introspection_cpp.hpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_string__type_support.cpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_leg_params__rosidl_typesupport_introspection_cpp.hpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_string__rosidl_typesupport_introspection_cpp.hpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/get_named_float__type_support.cpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/srv/detail/set_int__type_support.cpp
+[6.461s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg
+[6.461s] -- Up-to-date: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_pid_components__rosidl_typesupport_introspection_cpp.hpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/robodevel_state__rosidl_typesupport_introspection_cpp.hpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/command__rosidl_typesupport_introspection_cpp.hpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/command__type_support.cpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/b_box__rosidl_typesupport_introspection_cpp.hpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/status_indicator__type_support.cpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/status_indicator__rosidl_typesupport_introspection_cpp.hpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/health__rosidl_typesupport_introspection_cpp.hpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_output__rosidl_typesupport_introspection_cpp.hpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/b_box__type_support.cpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_targets__type_support.cpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/tag_feedback__type_support.cpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_pid_components__type_support.cpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_command__rosidl_typesupport_introspection_cpp.hpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/leg_state__rosidl_typesupport_introspection_cpp.hpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_output__type_support.cpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/tag_feedback__rosidl_typesupport_introspection_cpp.hpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/waypoint__rosidl_typesupport_introspection_cpp.hpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/health__type_support.cpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/robodevel_state__type_support.cpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_targets__rosidl_typesupport_introspection_cpp.hpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/periodic_leg_command__rosidl_typesupport_introspection_cpp.hpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/periodic_leg_command__type_support.cpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/leg_state__type_support.cpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/waypoint__type_support.cpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/include/aqua2_interfaces/msg/detail/autopilot_command__type_support.cpp
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/libaqua2_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.461s] -- Set runtime path of "/home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/libaqua2_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/libaqua2_interfaces__rosidl_typesupport_cpp.so
+[6.461s] -- Set runtime path of "/home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/libaqua2_interfaces__rosidl_typesupport_cpp.so" to ""
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/environment/pythonpath.sh
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/environment/pythonpath.dsv
+[6.461s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/__init__.py
+[6.474s] Compiling '/home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/__init__.py'...
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_health.py
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_autopilot_output.py
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_b_box_s.c
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_health_s.c
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_autopilot_targets_s.c
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_command_s.c
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_autopilot_command.py
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_leg_state.py
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_command.py
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_periodic_leg_command_s.c
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_robodevel_state_s.c
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_status_indicator.py
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_tag_feedback.py
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_status_indicator_s.c
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_autopilot_pid_components_s.c
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_autopilot_targets.py
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_autopilot_output_s.c
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_periodic_leg_command.py
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_autopilot_pid_components.py
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_waypoint_s.c
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_robodevel_state.py
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_autopilot_command_s.c
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/__init__.py
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_tag_feedback_s.c
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_leg_state_s.c
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_waypoint.py
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/msg/_b_box.py
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_get_autopilot_state.py
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_mission_update.py
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_get_autopilot_state_s.c
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_get_named_int.py
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_set_leg_params_s.c
+[6.476s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_get_named_int_s.c
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_set_string_s.c
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_set_bool_s.c
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_get_named_bool_s.c
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_set_int_s.c
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_set_autopilot_mode_s.c
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_get_named_float_s.c
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_set_float.py
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_set_string.py
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_set_autopilot_mode.py
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_set_leg_params.py
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_get_named_float.py
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_get_bool_s.c
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_get_named_bool.py
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/__init__.py
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_get_string_s.c
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_set_float_s.c
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_set_named_float_s.c
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_mission_update_s.c
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_get_bool.py
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_get_string.py
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_set_bool.py
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_set_named_float.py
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/srv/_set_int.py
+[6.477s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/aqua2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[6.477s] -- Set runtime path of "/home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/aqua2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.478s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/aqua2_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[6.478s] -- Set runtime path of "/home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/aqua2_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.478s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/aqua2_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[6.478s] -- Set runtime path of "/home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/python3.8/site-packages/aqua2_interfaces/aqua2_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.478s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/libaqua2_interfaces__python.so
+[6.478s] -- Set runtime path of "/home/ajbam/aquaLine/src/install/aqua2_interfaces/lib/libaqua2_interfaces__python.so" to ""
+[6.478s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/StatusIndicator.idl
+[6.478s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/Command.idl
+[6.479s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/Health.idl
+[6.479s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/AutopilotCommand.idl
+[6.479s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/AutopilotTargets.idl
+[6.479s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/AutopilotOutput.idl
+[6.479s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/AutopilotPIDComponents.idl
+[6.479s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/PeriodicLegCommand.idl
+[6.479s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/LegState.idl
+[6.479s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/Waypoint.idl
+[6.479s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/RobodevelState.idl
+[6.479s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/BBox.idl
+[6.479s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/TagFeedback.idl
+[6.479s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetAutopilotState.idl
+[6.479s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetBool.idl
+[6.479s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetNamedBool.idl
+[6.479s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetNamedFloat.idl
+[6.479s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetNamedInt.idl
+[6.479s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetString.idl
+[6.479s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/MissionUpdate.idl
+[6.479s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetAutopilotMode.idl
+[6.479s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetBool.idl
+[6.479s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetFloat.idl
+[6.480s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetInt.idl
+[6.480s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetLegParams.idl
+[6.480s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetNamedFloat.idl
+[6.480s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetString.idl
+[6.480s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/StatusIndicator.msg
+[6.480s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/Command.msg
+[6.480s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/Health.msg
+[6.480s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/AutopilotCommand.msg
+[6.480s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/AutopilotTargets.msg
+[6.480s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/AutopilotOutput.msg
+[6.480s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/AutopilotPIDComponents.msg
+[6.480s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/PeriodicLegCommand.msg
+[6.480s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/LegState.msg
+[6.480s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/Waypoint.msg
+[6.480s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/RobodevelState.msg
+[6.480s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/BBox.msg
+[6.480s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/msg/TagFeedback.msg
+[6.480s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetAutopilotState.srv
+[6.480s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetAutopilotState_Request.msg
+[6.480s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetAutopilotState_Response.msg
+[6.480s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetBool.srv
+[6.480s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetBool_Request.msg
+[6.481s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetBool_Response.msg
+[6.481s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetNamedBool.srv
+[6.481s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetNamedBool_Request.msg
+[6.481s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetNamedBool_Response.msg
+[6.481s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetNamedFloat.srv
+[6.481s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetNamedFloat_Request.msg
+[6.481s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetNamedFloat_Response.msg
+[6.481s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetNamedInt.srv
+[6.481s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetNamedInt_Request.msg
+[6.481s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetNamedInt_Response.msg
+[6.481s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetString.srv
+[6.481s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetString_Request.msg
+[6.481s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/GetString_Response.msg
+[6.481s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/MissionUpdate.srv
+[6.481s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/MissionUpdate_Request.msg
+[6.481s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/MissionUpdate_Response.msg
+[6.481s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetAutopilotMode.srv
+[6.481s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetAutopilotMode_Request.msg
+[6.481s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetAutopilotMode_Response.msg
+[6.481s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetBool.srv
+[6.481s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetBool_Request.msg
+[6.481s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetBool_Response.msg
+[6.482s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetFloat.srv
+[6.482s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetFloat_Request.msg
+[6.482s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetFloat_Response.msg
+[6.482s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetInt.srv
+[6.482s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetInt_Request.msg
+[6.482s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetInt_Response.msg
+[6.482s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetLegParams.srv
+[6.482s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetLegParams_Request.msg
+[6.482s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetLegParams_Response.msg
+[6.482s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetNamedFloat.srv
+[6.482s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetNamedFloat_Request.msg
+[6.482s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetNamedFloat_Response.msg
+[6.482s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetString.srv
+[6.482s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetString_Request.msg
+[6.482s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/srv/SetString_Response.msg
+[6.482s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/ament_index/resource_index/package_run_dependencies/aqua2_interfaces
+[6.482s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/ament_index/resource_index/parent_prefix_path/aqua2_interfaces
+[6.482s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/environment/ament_prefix_path.sh
+[6.482s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/environment/ament_prefix_path.dsv
+[6.482s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/environment/path.sh
+[6.483s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/environment/path.dsv
+[6.483s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/local_setup.bash
+[6.483s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/local_setup.sh
+[6.483s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/local_setup.zsh
+[6.483s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/local_setup.dsv
+[6.483s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/package.dsv
+[6.483s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/ament_index/resource_index/packages/aqua2_interfaces
+[6.483s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/cmake/aqua2_interfaces__rosidl_generator_cExport.cmake
+[6.483s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/cmake/aqua2_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.483s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/cmake/aqua2_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.483s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/cmake/aqua2_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.483s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/cmake/aqua2_interfaces__rosidl_typesupport_cExport.cmake
+[6.483s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/cmake/aqua2_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[6.483s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/cmake/aqua2_interfaces__rosidl_generator_cppExport.cmake
+[6.483s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/cmake/aqua2_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[6.483s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/cmake/aqua2_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.484s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/cmake/aqua2_interfaces__rosidl_typesupport_cppExport.cmake
+[6.484s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/cmake/aqua2_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[6.484s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.484s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.484s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.484s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.484s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.484s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.484s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.484s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/cmake/aqua2_interfacesConfig.cmake
+[6.484s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/cmake/aqua2_interfacesConfig-version.cmake
+[6.484s] -- Installing: /home/ajbam/aquaLine/src/install/aqua2_interfaces/share/aqua2_interfaces/package.xml
+[6.486s] Invoked command in '/home/ajbam/aquaLine/src/build/aqua2_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ajbam/aquaLine/src/build/aqua2_interfaces

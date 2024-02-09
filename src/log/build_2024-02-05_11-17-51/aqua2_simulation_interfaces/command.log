@@ -1,0 +1,4 @@
+Invoking command in '/home/ajbam/aquaLine/src/build/aqua2_simulation_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ajbam/aquaLine/src/build/aqua2_simulation_interfaces -- -j32 -l32
+Invoked command in '/home/ajbam/aquaLine/src/build/aqua2_simulation_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ajbam/aquaLine/src/build/aqua2_simulation_interfaces -- -j32 -l32
+Invoking command in '/home/ajbam/aquaLine/src/build/aqua2_simulation_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ajbam/aquaLine/src/build/aqua2_simulation_interfaces
+Invoked command in '/home/ajbam/aquaLine/src/build/aqua2_simulation_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ajbam/aquaLine/src/build/aqua2_simulation_interfaces

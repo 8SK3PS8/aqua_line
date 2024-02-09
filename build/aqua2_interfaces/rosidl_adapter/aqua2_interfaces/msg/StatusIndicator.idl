@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from aqua2_interfaces/msg/StatusIndicator.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module aqua2_interfaces {
+  module msg {
+    typedef float float__3[3];
+    @verbatim (language="comment", text=
+      " © Copyright Independent Robotics Inc. 2022")
+    struct StatusIndicator {
+      std_msgs::msg::Header header;
+
+      string text;
+
+      float__3 text_color;
+
+      float__3 bg_color;
+    };
+  };
+};

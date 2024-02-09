@@ -1,0 +1,6 @@
+
+int32 autopilot_mode
+float32 target_depth
+float32 target_roll
+float32 target_pitch
+float32 target_yaw

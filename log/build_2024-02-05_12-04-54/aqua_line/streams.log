@@ -1,0 +1,37 @@
+[0.375s] Invoking command in '/home/ajbam/aquaLine/src/aqua_line': PYTHONPATH=/home/ajbam/aquaLine/build/aqua_line/prefix_override:/home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aqua_line build --build-base /home/ajbam/aquaLine/build/aqua_line/build install --record /home/ajbam/aquaLine/build/aqua_line/install.log --install-scripts $base/lib/aqua_line --single-version-externally-managed
+[0.458s] running egg_info
+[0.458s] creating ../../build/aqua_line/aqua_line.egg-info
+[0.458s] writing ../../build/aqua_line/aqua_line.egg-info/PKG-INFO
+[0.458s] writing dependency_links to ../../build/aqua_line/aqua_line.egg-info/dependency_links.txt
+[0.458s] writing entry points to ../../build/aqua_line/aqua_line.egg-info/entry_points.txt
+[0.458s] writing requirements to ../../build/aqua_line/aqua_line.egg-info/requires.txt
+[0.458s] writing top-level names to ../../build/aqua_line/aqua_line.egg-info/top_level.txt
+[0.458s] writing manifest file '../../build/aqua_line/aqua_line.egg-info/SOURCES.txt'
+[0.472s] reading manifest file '../../build/aqua_line/aqua_line.egg-info/SOURCES.txt'
+[0.472s] writing manifest file '../../build/aqua_line/aqua_line.egg-info/SOURCES.txt'
+[0.472s] running build
+[0.472s] running build_py
+[0.472s] creating /home/ajbam/aquaLine/build/aqua_line/build
+[0.472s] creating /home/ajbam/aquaLine/build/aqua_line/build/lib
+[0.472s] creating /home/ajbam/aquaLine/build/aqua_line/build/lib/aqua_line
+[0.472s] copying aqua_line/geometry.py -> /home/ajbam/aquaLine/build/aqua_line/build/lib/aqua_line
+[0.472s] copying aqua_line/stabilize.py -> /home/ajbam/aquaLine/build/aqua_line/build/lib/aqua_line
+[0.472s] copying aqua_line/goStraight.py -> /home/ajbam/aquaLine/build/aqua_line/build/lib/aqua_line
+[0.472s] copying aqua_line/__init__.py -> /home/ajbam/aquaLine/build/aqua_line/build/lib/aqua_line
+[0.472s] running install
+[0.473s] running install_lib
+[0.473s] creating /home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages/aqua_line
+[0.473s] copying /home/ajbam/aquaLine/build/aqua_line/build/lib/aqua_line/geometry.py -> /home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages/aqua_line
+[0.473s] copying /home/ajbam/aquaLine/build/aqua_line/build/lib/aqua_line/stabilize.py -> /home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages/aqua_line
+[0.473s] copying /home/ajbam/aquaLine/build/aqua_line/build/lib/aqua_line/goStraight.py -> /home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages/aqua_line
+[0.473s] copying /home/ajbam/aquaLine/build/aqua_line/build/lib/aqua_line/__init__.py -> /home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages/aqua_line
+[0.473s] byte-compiling /home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages/aqua_line/geometry.py to geometry.cpython-38.pyc
+[0.474s] byte-compiling /home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages/aqua_line/stabilize.py to stabilize.cpython-38.pyc
+[0.474s] byte-compiling /home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages/aqua_line/goStraight.py to goStraight.cpython-38.pyc
+[0.474s] byte-compiling /home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages/aqua_line/__init__.py to __init__.cpython-38.pyc
+[0.474s] running install_data
+[0.474s] creating /home/ajbam/aquaLine/install/aqua_line/share/ament_index
+[0.474s] creating /home/ajbam/aquaLine/install/aqua_line/share/ament_index/resource_index
+[0.474s] creating /home/ajbam/aquaLine/install/aqua_line/share/ament_index/resource_index/packages
+[0.474s] error: can't copy 'resource/aqua_line': doesn't exist or not a regular file
+[0.481s] Invoked command in '/home/ajbam/aquaLine/src/aqua_line' returned '1': PYTHONPATH=/home/ajbam/aquaLine/build/aqua_line/prefix_override:/home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aqua_line build --build-base /home/ajbam/aquaLine/build/aqua_line/build install --record /home/ajbam/aquaLine/build/aqua_line/install.log --install-scripts $base/lib/aqua_line --single-version-externally-managed

@@ -1,0 +1,296 @@
+[0.875s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.875s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f37f9a27850>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=32, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f37f9a27850>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f37f9a37100>)
+[0.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.914s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ajbam/aquaLine'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua2_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua2_interfaces) by extension 'ignore'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua2_interfaces) by extension 'ignore_ament_install'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua2_interfaces) by extensions ['colcon_pkg']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua2_interfaces) by extension 'colcon_pkg'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua2_interfaces) by extensions ['colcon_meta']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua2_interfaces) by extension 'colcon_meta'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua2_interfaces) by extensions ['ros']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua2_interfaces) by extension 'ros'
+[0.924s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aqua2_interfaces' with type 'ros.ament_cmake' and name 'aqua2_interfaces'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua2_simulation_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua2_simulation_interfaces) by extension 'ignore'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua2_simulation_interfaces) by extension 'ignore_ament_install'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua2_simulation_interfaces) by extensions ['colcon_pkg']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua2_simulation_interfaces) by extension 'colcon_pkg'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua2_simulation_interfaces) by extensions ['colcon_meta']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua2_simulation_interfaces) by extension 'colcon_meta'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua2_simulation_interfaces) by extensions ['ros']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua2_simulation_interfaces) by extension 'ros'
+[0.925s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aqua2_simulation_interfaces' with type 'ros.ament_cmake' and name 'aqua2_simulation_interfaces'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua_line) by extensions ['ignore', 'ignore_ament_install']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua_line) by extension 'ignore'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua_line) by extension 'ignore_ament_install'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua_line) by extensions ['colcon_pkg']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua_line) by extension 'colcon_pkg'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua_line) by extensions ['colcon_meta']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua_line) by extension 'colcon_meta'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua_line) by extensions ['ros']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/aqua_line) by extension 'ros'
+[0.925s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aqua_line' with type 'ros.ament_python' and name 'aqua_line'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.012s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.012s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.043s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/ajbam/aquaLine/install
+[1.058s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 257 installed packages in /opt/ros/foxy
+[1.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.117s] Level 5:colcon.colcon_core.verb:set package 'aqua2_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.117s] Level 5:colcon.colcon_core.verb:set package 'aqua2_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.117s] Level 5:colcon.colcon_core.verb:set package 'aqua2_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.117s] Level 5:colcon.colcon_core.verb:set package 'aqua2_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.117s] Level 5:colcon.colcon_core.verb:set package 'aqua2_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.117s] Level 5:colcon.colcon_core.verb:set package 'aqua2_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.117s] Level 5:colcon.colcon_core.verb:set package 'aqua2_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.117s] Level 5:colcon.colcon_core.verb:set package 'aqua2_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.117s] Level 5:colcon.colcon_core.verb:set package 'aqua2_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.117s] DEBUG:colcon.colcon_core.verb:Building package 'aqua2_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajbam/aquaLine/build/aqua2_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajbam/aquaLine/install/aqua2_interfaces', 'merge_install': False, 'path': '/home/ajbam/aquaLine/src/aqua2_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'aqua2_simulation_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'aqua2_simulation_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'aqua2_simulation_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'aqua2_simulation_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'aqua2_simulation_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'aqua2_simulation_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'aqua2_simulation_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'aqua2_simulation_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'aqua2_simulation_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.131s] DEBUG:colcon.colcon_core.verb:Building package 'aqua2_simulation_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajbam/aquaLine/build/aqua2_simulation_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces', 'merge_install': False, 'path': '/home/ajbam/aquaLine/src/aqua2_simulation_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'aqua_line' build argument 'cmake_args' from command line to 'None'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'aqua_line' build argument 'cmake_target' from command line to 'None'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'aqua_line' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'aqua_line' build argument 'cmake_clean_cache' from command line to 'False'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'aqua_line' build argument 'cmake_clean_first' from command line to 'False'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'aqua_line' build argument 'cmake_force_configure' from command line to 'False'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'aqua_line' build argument 'ament_cmake_args' from command line to 'None'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'aqua_line' build argument 'catkin_cmake_args' from command line to 'None'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'aqua_line' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.145s] DEBUG:colcon.colcon_core.verb:Building package 'aqua_line' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajbam/aquaLine/build/aqua_line', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajbam/aquaLine/install/aqua_line', 'merge_install': False, 'path': '/home/ajbam/aquaLine/src/aqua_line', 'symlink_install': False, 'test_result_base': None}
+[1.165s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.180s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.180s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ajbam/aquaLine/src/aqua2_interfaces' with build type 'ament_cmake'
+[1.180s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ajbam/aquaLine/src/aqua2_interfaces'
+[1.195s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.195s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.195s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.241s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ajbam/aquaLine/src/aqua2_simulation_interfaces' with build type 'ament_cmake'
+[1.241s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ajbam/aquaLine/src/aqua2_simulation_interfaces'
+[1.256s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.256s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.302s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ajbam/aquaLine/src/aqua_line' with build type 'ament_python'
+[1.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('aqua_line', 'ament_prefix_path')
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua_line/share/aqua_line/hook/ament_prefix_path.ps1'
+[1.318s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajbam/aquaLine/install/aqua_line/share/aqua_line/hook/ament_prefix_path.dsv'
+[1.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua_line/share/aqua_line/hook/ament_prefix_path.sh'
+[1.333s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.333s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajbam/aquaLine/build/aqua2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajbam/aquaLine/install/aqua_line:/home/ajbam/aquaLine/install/aquaLine:/opt/ros/foxy /usr/bin/cmake --build /home/ajbam/aquaLine/build/aqua2_interfaces -- -j32 -l32
+[1.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajbam/aquaLine/build/aqua2_simulation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajbam/aquaLine/install/aqua_line:/home/ajbam/aquaLine/install/aquaLine:/opt/ros/foxy /usr/bin/cmake --build /home/ajbam/aquaLine/build/aqua2_simulation_interfaces -- -j32 -l32
+[1.484s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ajbam/aquaLine/src/aqua_line'
+[1.500s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.500s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajbam/aquaLine/build/aqua2_simulation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajbam/aquaLine/install/aqua_line:/home/ajbam/aquaLine/install/aquaLine:/opt/ros/foxy /usr/bin/cmake --build /home/ajbam/aquaLine/build/aqua2_simulation_interfaces -- -j32 -l32
+[1.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajbam/aquaLine/build/aqua2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajbam/aquaLine/install/aqua_line:/home/ajbam/aquaLine/install/aquaLine:/opt/ros/foxy /usr/bin/cmake --build /home/ajbam/aquaLine/build/aqua2_interfaces -- -j32 -l32
+[1.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajbam/aquaLine/build/aqua2_simulation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajbam/aquaLine/install/aqua_line:/home/ajbam/aquaLine/install/aquaLine:/opt/ros/foxy /usr/bin/cmake --install /home/ajbam/aquaLine/build/aqua2_simulation_interfaces
+[1.640s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aqua2_simulation_interfaces)
+[1.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajbam/aquaLine/build/aqua2_simulation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajbam/aquaLine/install/aqua_line:/home/ajbam/aquaLine/install/aquaLine:/opt/ros/foxy /usr/bin/cmake --install /home/ajbam/aquaLine/build/aqua2_simulation_interfaces
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces' for CMake module files
+[1.657s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces' for CMake config files
+[1.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('aqua2_simulation_interfaces', 'cmake_prefix_path')
+[1.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/hook/cmake_prefix_path.ps1'
+[1.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/hook/cmake_prefix_path.dsv'
+[1.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/hook/cmake_prefix_path.sh'
+[1.673s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib'
+[1.673s] Level 1:colcon.colcon_core.shell:create_environment_hook('aqua2_simulation_interfaces', 'ld_library_path_lib')
+[1.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/hook/ld_library_path_lib.ps1'
+[1.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/hook/ld_library_path_lib.dsv'
+[1.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/hook/ld_library_path_lib.sh'
+[1.688s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/bin'
+[1.688s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/pkgconfig/aqua2_simulation_interfaces.pc'
+[1.688s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages'
+[1.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('aqua2_simulation_interfaces', 'pythonpath')
+[1.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/hook/pythonpath.ps1'
+[1.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/hook/pythonpath.dsv'
+[1.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/hook/pythonpath.sh'
+[1.704s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/bin'
+[1.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/package.ps1'
+[1.720s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/package.dsv'
+[1.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/package.sh'
+[1.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/package.bash'
+[1.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/package.zsh'
+[1.721s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/colcon-core/packages/aqua2_simulation_interfaces)
+[1.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajbam/aquaLine/build/aqua2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajbam/aquaLine/install/aqua_line:/home/ajbam/aquaLine/install/aquaLine:/opt/ros/foxy /usr/bin/cmake --install /home/ajbam/aquaLine/build/aqua2_interfaces
+[1.759s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aqua2_interfaces)
+[1.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajbam/aquaLine/src/aqua_line': PYTHONPATH=/home/ajbam/aquaLine/build/aqua_line/prefix_override:/home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aqua_line build --build-base /home/ajbam/aquaLine/build/aqua_line/build install --record /home/ajbam/aquaLine/build/aqua_line/install.log --install-scripts $base/lib/aqua_line --single-version-externally-managed
+[1.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajbam/aquaLine/build/aqua2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajbam/aquaLine/install/aqua_line:/home/ajbam/aquaLine/install/aquaLine:/opt/ros/foxy /usr/bin/cmake --install /home/ajbam/aquaLine/build/aqua2_interfaces
+[1.789s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_interfaces' for CMake module files
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_interfaces' for CMake config files
+[1.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('aqua2_interfaces', 'cmake_prefix_path')
+[1.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/hook/cmake_prefix_path.ps1'
+[1.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/hook/cmake_prefix_path.dsv'
+[1.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/hook/cmake_prefix_path.sh'
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_interfaces/lib'
+[1.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('aqua2_interfaces', 'ld_library_path_lib')
+[1.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/hook/ld_library_path_lib.ps1'
+[1.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/hook/ld_library_path_lib.dsv'
+[1.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/hook/ld_library_path_lib.sh'
+[1.827s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_interfaces/bin'
+[1.827s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_interfaces/lib/pkgconfig/aqua2_interfaces.pc'
+[1.827s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_interfaces/lib/python3.8/site-packages'
+[1.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('aqua2_interfaces', 'pythonpath')
+[1.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/hook/pythonpath.ps1'
+[1.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/hook/pythonpath.dsv'
+[1.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/hook/pythonpath.sh'
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_interfaces/bin'
+[1.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/package.ps1'
+[1.860s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/package.dsv'
+[1.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/package.sh'
+[1.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/package.bash'
+[1.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/package.zsh'
+[1.861s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajbam/aquaLine/install/aqua2_interfaces/share/colcon-core/packages/aqua2_interfaces)
+[1.878s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aqua2_simulation_interfaces)
+[1.894s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces' for CMake module files
+[1.894s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces' for CMake config files
+[1.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('aqua2_simulation_interfaces', 'cmake_prefix_path')
+[1.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/hook/cmake_prefix_path.ps1'
+[1.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/hook/cmake_prefix_path.dsv'
+[1.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/hook/cmake_prefix_path.sh'
+[1.910s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib'
+[1.910s] Level 1:colcon.colcon_core.shell:create_environment_hook('aqua2_simulation_interfaces', 'ld_library_path_lib')
+[1.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/hook/ld_library_path_lib.ps1'
+[1.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/hook/ld_library_path_lib.dsv'
+[1.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/hook/ld_library_path_lib.sh'
+[1.925s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/bin'
+[1.925s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/pkgconfig/aqua2_simulation_interfaces.pc'
+[1.926s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/lib/python3.8/site-packages'
+[1.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('aqua2_simulation_interfaces', 'pythonpath')
+[1.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/hook/pythonpath.ps1'
+[1.941s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/hook/pythonpath.dsv'
+[1.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/hook/pythonpath.sh'
+[1.941s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/bin'
+[1.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/package.ps1'
+[1.957s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/package.dsv'
+[1.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/package.sh'
+[1.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/package.bash'
+[1.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/aqua2_simulation_interfaces/package.zsh'
+[1.957s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajbam/aquaLine/install/aqua2_simulation_interfaces/share/colcon-core/packages/aqua2_simulation_interfaces)
+[1.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajbam/aquaLine/src/aqua_line' returned '0': PYTHONPATH=/home/ajbam/aquaLine/build/aqua_line/prefix_override:/home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aqua_line build --build-base /home/ajbam/aquaLine/build/aqua_line/build install --record /home/ajbam/aquaLine/build/aqua_line/install.log --install-scripts $base/lib/aqua_line --single-version-externally-managed
+[1.974s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua_line' for CMake module files
+[1.974s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua_line' for CMake config files
+[1.974s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua_line/lib'
+[1.974s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua_line/bin'
+[1.974s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua_line/lib/pkgconfig/aqua_line.pc'
+[1.974s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages'
+[1.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('aqua_line', 'pythonpath')
+[1.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua_line/share/aqua_line/hook/pythonpath.ps1'
+[1.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajbam/aquaLine/install/aqua_line/share/aqua_line/hook/pythonpath.dsv'
+[1.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua_line/share/aqua_line/hook/pythonpath.sh'
+[1.990s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua_line/bin'
+[1.990s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aqua_line)
+[2.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajbam/aquaLine/install/aqua_line/share/aqua_line/package.ps1'
+[2.006s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajbam/aquaLine/install/aqua_line/share/aqua_line/package.dsv'
+[2.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajbam/aquaLine/install/aqua_line/share/aqua_line/package.sh'
+[2.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajbam/aquaLine/install/aqua_line/share/aqua_line/package.bash'
+[2.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajbam/aquaLine/install/aqua_line/share/aqua_line/package.zsh'
+[2.006s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajbam/aquaLine/install/aqua_line/share/colcon-core/packages/aqua_line)
+[2.053s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aqua2_interfaces)
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_interfaces' for CMake module files
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_interfaces' for CMake config files
+[2.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('aqua2_interfaces', 'cmake_prefix_path')
+[2.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/hook/cmake_prefix_path.ps1'
+[2.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/hook/cmake_prefix_path.dsv'
+[2.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/hook/cmake_prefix_path.sh'
+[2.085s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_interfaces/lib'
+[2.085s] Level 1:colcon.colcon_core.shell:create_environment_hook('aqua2_interfaces', 'ld_library_path_lib')
+[2.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/hook/ld_library_path_lib.ps1'
+[2.100s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/hook/ld_library_path_lib.dsv'
+[2.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/hook/ld_library_path_lib.sh'
+[2.100s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_interfaces/bin'
+[2.100s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_interfaces/lib/pkgconfig/aqua2_interfaces.pc'
+[2.100s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_interfaces/lib/python3.8/site-packages'
+[2.100s] Level 1:colcon.colcon_core.shell:create_environment_hook('aqua2_interfaces', 'pythonpath')
+[2.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/hook/pythonpath.ps1'
+[2.115s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/hook/pythonpath.dsv'
+[2.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/hook/pythonpath.sh'
+[2.115s] Level 1:colcon.colcon_core.environment:checking '/home/ajbam/aquaLine/install/aqua2_interfaces/bin'
+[2.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/package.ps1'
+[2.130s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/package.dsv'
+[2.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/package.sh'
+[2.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/package.bash'
+[2.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajbam/aquaLine/install/aqua2_interfaces/share/aqua2_interfaces/package.zsh'
+[2.131s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajbam/aquaLine/install/aqua2_interfaces/share/colcon-core/packages/aqua2_interfaces)
+[2.131s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.131s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.131s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.131s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.155s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.155s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.155s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.163s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.182s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajbam/aquaLine/install/local_setup.ps1'
+[2.182s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ajbam/aquaLine/install/_local_setup_util_ps1.py'
+[2.183s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajbam/aquaLine/install/setup.ps1'
+[2.198s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajbam/aquaLine/install/local_setup.sh'
+[2.199s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ajbam/aquaLine/install/_local_setup_util_sh.py'
+[2.199s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajbam/aquaLine/install/setup.sh'
+[2.214s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajbam/aquaLine/install/local_setup.bash'
+[2.214s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajbam/aquaLine/install/setup.bash'
+[2.229s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajbam/aquaLine/install/local_setup.zsh'
+[2.230s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajbam/aquaLine/install/setup.zsh'

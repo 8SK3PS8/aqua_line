@@ -1,0 +1,3 @@
+# © Copyright Independent Robotics Inc. 2022
+#mode :  0=OFF, 2=ANGLES, 4=DEPTH; see msg/AutopilotModes.msg
+int32 mode

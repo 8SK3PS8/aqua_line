@@ -1,0 +1,20 @@
+[0.408s] Invoking command in '/home/ajbam/aquaLine/src/aquaLine': PYTHONPATH=/home/ajbam/aquaLine/build/aquaLine/prefix_override:/home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aquaLine build --build-base /home/ajbam/aquaLine/build/aquaLine/build install --record /home/ajbam/aquaLine/build/aquaLine/install.log --install-scripts $base/lib/aquaLine --single-version-externally-managed
+[0.491s] running egg_info
+[0.491s] writing ../../build/aquaLine/aquaLine.egg-info/PKG-INFO
+[0.491s] writing dependency_links to ../../build/aquaLine/aquaLine.egg-info/dependency_links.txt
+[0.491s] writing entry points to ../../build/aquaLine/aquaLine.egg-info/entry_points.txt
+[0.491s] writing requirements to ../../build/aquaLine/aquaLine.egg-info/requires.txt
+[0.491s] writing top-level names to ../../build/aquaLine/aquaLine.egg-info/top_level.txt
+[0.506s] reading manifest file '../../build/aquaLine/aquaLine.egg-info/SOURCES.txt'
+[0.506s] writing manifest file '../../build/aquaLine/aquaLine.egg-info/SOURCES.txt'
+[0.506s] running build
+[0.506s] running build_py
+[0.506s] running install
+[0.506s] running install_lib
+[0.506s] running install_data
+[0.507s] running install_egg_info
+[0.507s] removing '/home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine-0.0.0-py3.8.egg-info' (and everything under it)
+[0.507s] Copying ../../build/aquaLine/aquaLine.egg-info to /home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages/aquaLine-0.0.0-py3.8.egg-info
+[0.508s] running install_scripts
+[0.515s] writing list of installed files to '/home/ajbam/aquaLine/build/aquaLine/install.log'
+[0.588s] Invoked command in '/home/ajbam/aquaLine/src/aquaLine' returned '0': PYTHONPATH=/home/ajbam/aquaLine/build/aquaLine/prefix_override:/home/ajbam/aquaLine/install/aquaLine/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aquaLine build --build-base /home/ajbam/aquaLine/build/aquaLine/build install --record /home/ajbam/aquaLine/build/aquaLine/install.log --install-scripts $base/lib/aquaLine --single-version-externally-managed

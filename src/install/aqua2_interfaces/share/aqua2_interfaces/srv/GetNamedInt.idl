@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from aqua2_interfaces/srv/GetNamedInt.srv
+// generated code does not contain a copyright notice
+
+
+module aqua2_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      " © Copyright Independent Robotics Inc. 2022")
+    struct GetNamedInt_Request {
+      string name;
+    };
+    struct GetNamedInt_Response {
+      int32 value;
+    };
+  };
+};

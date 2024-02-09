@@ -1,0 +1,38 @@
+[0.178s] Invoking command in '/home/ajbam/aquaLine/src/build/aqua2_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ajbam/aquaLine/src/aqua2_interfaces -DCMAKE_INSTALL_PREFIX=/home/ajbam/aquaLine/src/install/aqua2_interfaces
+[0.201s] -- The C compiler identification is GNU 9.4.0
+[0.224s] -- The CXX compiler identification is GNU 9.4.0
+[0.226s] -- Check for working C compiler: /usr/bin/cc
+[0.255s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.255s] -- Detecting C compiler ABI info
+[0.286s] -- Detecting C compiler ABI info - done
+[0.294s] -- Detecting C compile features
+[0.294s] -- Detecting C compile features - done
+[0.302s] -- Check for working CXX compiler: /usr/bin/c++
+[0.330s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.330s] -- Detecting CXX compiler ABI info
+[0.365s] -- Detecting CXX compiler ABI info - done
+[0.374s] -- Detecting CXX compile features
+[0.374s] -- Detecting CXX compile features - done
+[0.375s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.385s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.385s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.468s] CMake Error at CMakeLists.txt:23 (find_package):
+[0.468s]   By not providing "Findgeographic_msgs.cmake" in CMAKE_MODULE_PATH this
+[0.468s]   project has asked CMake to find a package configuration file provided by
+[0.468s]   "geographic_msgs", but CMake did not find one.
+[0.468s] 
+[0.468s]   Could not find a package configuration file provided by "geographic_msgs"
+[0.468s]   with any of the following names:
+[0.468s] 
+[0.468s]     geographic_msgsConfig.cmake
+[0.468s]     geographic_msgs-config.cmake
+[0.468s] 
+[0.468s]   Add the installation prefix of "geographic_msgs" to CMAKE_PREFIX_PATH or
+[0.468s]   set "geographic_msgs_DIR" to a directory containing one of the above files.
+[0.468s]   If "geographic_msgs" provides a separate development package or SDK, be
+[0.468s]   sure it has been installed.
+[0.468s] 
+[0.468s] 
+[0.468s] -- Configuring incomplete, errors occurred!
+[0.468s] See also "/home/ajbam/aquaLine/src/build/aqua2_interfaces/CMakeFiles/CMakeOutput.log".
+[0.471s] Invoked command in '/home/ajbam/aquaLine/src/build/aqua2_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ajbam/aquaLine/src/aqua2_interfaces -DCMAKE_INSTALL_PREFIX=/home/ajbam/aquaLine/src/install/aqua2_interfaces

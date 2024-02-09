@@ -1,0 +1,2 @@
+# © Copyright Independent Robotics Inc. 2022
+geometry_msgs/Pose pose

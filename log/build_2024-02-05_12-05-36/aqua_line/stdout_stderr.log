@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/aqua_line/aqua_line.egg-info/PKG-INFO
+writing dependency_links to ../../build/aqua_line/aqua_line.egg-info/dependency_links.txt
+writing entry points to ../../build/aqua_line/aqua_line.egg-info/entry_points.txt
+writing requirements to ../../build/aqua_line/aqua_line.egg-info/requires.txt
+writing top-level names to ../../build/aqua_line/aqua_line.egg-info/top_level.txt
+reading manifest file '../../build/aqua_line/aqua_line.egg-info/SOURCES.txt'
+writing manifest file '../../build/aqua_line/aqua_line.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying resource/aqua_line -> /home/ajbam/aquaLine/install/aqua_line/share/ament_index/resource_index/packages
+copying package.xml -> /home/ajbam/aquaLine/install/aqua_line/share/aqua_line
+running install_egg_info
+Copying ../../build/aqua_line/aqua_line.egg-info to /home/ajbam/aquaLine/install/aqua_line/lib/python3.8/site-packages/aqua_line-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/ajbam/aquaLine/build/aqua_line/install.log'

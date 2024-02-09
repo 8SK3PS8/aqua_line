@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from aqua2_simulation_interfaces/srv/EmptyWorkaround.srv
+// generated code does not contain a copyright notice
+
+
+module aqua2_simulation_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      " © Copyright Independent Robotics Inc. 2022" "\n"
+      " this service is used as ROS-TCP-Endpoint has a bug where service responses cannot be empty.")
+    struct EmptyWorkaround_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct EmptyWorkaround_Response {
+      string msg;
+    };
+  };
+};
